@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <base href="/" />
+    <title>Ödeme | Threon</title>
+    <meta name="description" content="THREON güvenli ödeme ve sipariş tamamlama sayfası." />
+    <link rel="stylesheet" href="styles.css?v=threon-cloudflare-split-20260625" />
+  </head>
+  <body data-page="checkout">
+    <div class="announcement" data-announcement>THREE GIFT CARD | YENİ SEZON | 1500 TL+ ÜCRETSİZ KARGO</div>
+    <header class="site-header site-header--solid" data-header>
+      <a class="brand" href="index.html" aria-label="Threon ana sayfa">
+        <span class="brand-mark" aria-hidden="true">T</span>
+        <span data-brand-name>Threon</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+        <span class="sr-only">Menüyü aç</span>
+      </button>
+      <nav class="site-nav" id="site-nav" data-nav></nav>
+    </header>
+
+    <main class="page-main checkout-page">
+      <section class="checkout-hero">
+        <p class="eyebrow">Güvenli ödeme</p>
+        <h1>Siparişi kontrollü ve hızlı tamamla.</h1>
+        <p>Adresini sırayla seç, teslimat yöntemini belirle, ek hizmetleri ekle ve THREON siparişini hesabına bağlı şekilde oluştur.</p>
+      </section>
+
+      <section class="checkout-steps-rail" aria-label="Ödeme adımları">
+        <span>Üyelik kontrolü</span>
+        <span>Adres seçimi</span>
+        <span>Teslimat</span>
+        <span>Güvenli ödeme</span>
+      </section>
+
+      <div class="visual-slot" data-visual-slot="checkout-after-hero"></div>
+
+      <section class="support-section checkout-trust-grid">
+        <article class="support-card">
+          <span>01</span>
+          <h2>Üye zorunlu akış</h2>
+          <p>Sipariş kayıtları hesabına bağlanır; takip ve destek süreçleri daha temiz yürür.</p>
+        </article>
+        <article class="support-card">
+          <span>02</span>
+          <h2>Adres doğrulama</h2>
+          <p>İl, ilçe ve mahalle seçimleri sıralı ilerler; açık adres son kontrolde görünür.</p>
+        </article>
+        <article class="support-card support-card--dark">
+          <span>03</span>
+          <h2>Şeffaf toplam</h2>
+          <p>Kargo, hediye paketi, kampanya ve ürün toplamı sepet özetinde anlık güncellenir.</p>
+        </article>
+      </section>
+
+      <section class="checkout-layout">
+        <form class="checkout-form" data-checkout-form>
+          <section>
+            <span>01</span>
+            <h2>İletişim</h2>
+            <div class="form-grid">
+              <label><span>Ad soyad</span><input name="name" autocomplete="name" required /></label>
+              <label><span>E-posta</span><input name="email" type="email" autocomplete="email" required /></label>
+              <label><span>Telefon</span><input name="phone" autocomplete="tel" inputmode="tel" placeholder="+90 5XXXXXXXXX" pattern="^\+90 5[0-9]{9}$" value="+90 5" required /></label>
+            </div>
+          </section>
+          <section>
+            <span>02</span>
+            <h2>Teslimat adresi</h2>
+            <div class="form-grid form-grid--three">
+              <label><span>İl</span><select name="city" data-city-select required></select></label>
+              <label><span>İlçe</span><select name="district" data-district-select required></select></label>
+              <label><span>Mahalle</span><select name="neighborhood" data-neighborhood-select required></select></label>
+            </div>
+            <label><span>Açık adres</span><textarea name="address" rows="4" placeholder="Cadde, sokak, bina ve daire bilgisi" required></textarea></label>
+            <label><span>Sipariş notu</span><textarea name="note" rows="3"></textarea></label>
+          </section>
+          <section>
+            <span>03</span>
+            <h2>Teslimat yöntemi</h2>
+            <div class="shipping-options">
+              <label><input name="shippingMethod" type="radio" value="standard" checked /> <span>Standart kargo <em>1-3 iş günü</em></span></label>
+              <label><input name="shippingMethod" type="radio" value="express" /> <span>Premium hızlı kargo <em>24 saat hazırlık</em></span></label>
+              <label><input name="shippingMethod" type="radio" value="pickup" /> <span>Showroom teslim <em>Ücretsiz</em></span></label>
+            </div>
+          </section>
+          <section>
+            <span>04</span>
+            <h2>Ödeme</h2>
+            <div class="payment-options">
+              <label><input name="paymentMethod" type="radio" value="card" checked /> <span>Kart ile güvenli ödeme <em>3D Secure uyumlu</em></span></label>
+              <label><input name="paymentMethod" type="radio" value="bank" /> <span>Havale / EFT</span></label>
+              <label><input name="paymentMethod" type="radio" value="door" /> <span>Kapıda ödeme talebi <em>+69 TL hizmet bedeli</em></span></label>
+            </div>
+          </section>
+          <section>
+            <span>05</span>
+            <h2>Ek hizmetler</h2>
+            <div class="payment-options">
+              <label><input name="giftWrap" type="checkbox" value="yes" data-gift-wrap /> <span>Premium hediye paketi <em>+79 TL</em></span></label>
+              <label><input name="invoiceType" type="radio" value="personal" checked /> <span>Bireysel fatura</span></label>
+              <label><input name="invoiceType" type="radio" value="company" /> <span>Kurumsal fatura talebi</span></label>
+            </div>
+          </section>
+          <section>
+            <span>06</span>
+            <h2>Fatura ve onaylar</h2>
+            <div class="form-grid">
+              <label><span>Firma adı</span><input name="companyName" placeholder="Kurumsal fatura için" /></label>
+              <label><span>Vergi no / TCKN</span><input name="taxNumber" inputmode="numeric" placeholder="İsteğe bağlı" /></label>
+            </div>
+            <div class="payment-options payment-options--compact">
+              <label><input name="legalConsent" type="checkbox" value="yes" required /> <span>Mesafeli satış sözleşmesi, ön bilgilendirme ve KVKK metinlerini okudum, onaylıyorum.</span></label>
+              <label><input name="marketingConsent" type="checkbox" value="yes" /> <span>Yeni sezon, indirim ve THREON Club duyurularını almak istiyorum.</span></label>
+            </div>
+          </section>
+          <button class="button button-primary" type="submit">Siparişi oluştur</button>
+          <p class="form-status" data-checkout-status role="status" aria-live="polite"></p>
+        </form>
+
+        <aside class="checkout-summary">
+          <div class="checkout-success" data-order-success></div>
+          <div class="checkout-assurance">
+            <span>THREON ödeme</span>
+            <strong>Sepetin, üyeliğin ve teslimat bilgilerin aynı sipariş kaydında tutulur.</strong>
+          </div>
+          <div class="checkout-promo">
+            <span>Kampanya kodu</span>
+            <div>
+              <input type="text" placeholder="THREON10" data-coupon-input />
+              <button class="mini-button" type="button" data-coupon-apply>Uygula</button>
+            </div>
+            <p data-coupon-status></p>
+          </div>
+          <div data-checkout-summary>
+            <div class="loading-line">Sepet yükleniyor...</div>
+          </div>
+          <div class="checkout-empty is-hidden" data-checkout-empty>
+            <a class="button button-secondary-dark" href="products.html">Alışverişe başla</a>
+          </div>
+          <div class="checkout-trust">
+            <span>Güvenli alışveriş</span>
+            <span>1500 TL+ ücretsiz kargo</span>
+            <span>14 gün iade</span>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span data-year></span> <span data-brand-name>Threon</span>. Tüm hakları saklıdır.</p>
+      <a href="account.html">Hesabım</a>
+    </footer>
+
+    <script src="script.js?v=threon-cloudflare-split-20260625"></script>
+  </body>
+</html>

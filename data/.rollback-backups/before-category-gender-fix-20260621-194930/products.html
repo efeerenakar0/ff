@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <base href="/" />
+    <title>Mağaza | Threon</title>
+    <meta name="description" content="THREON giyim koleksiyonu: kapüşonlular, alt giyim, dış giyim, tişörtler ve ayakkabılar." />
+    <link rel="stylesheet" href="styles.css?v=threon-restore-20260621" />
+  </head>
+  <body data-page="products">
+    <div class="announcement" data-announcement>THREE GIFT CARD | YENİ SEZON | 1500 TL+ ÜCRETSİZ KARGO</div>
+    <header class="site-header site-header--solid" data-header>
+      <a class="brand" href="index.html" aria-label="Threon ana sayfa">
+        <span class="brand-mark" aria-hidden="true">T</span>
+        <span data-brand-name>Threon</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+        <span class="sr-only">Menüyü aç</span>
+      </button>
+      <nav class="site-nav" id="site-nav" data-nav></nav>
+    </header>
+
+    <main class="page-main shop-page">
+      <section class="shop-editorial-hero">
+        <div class="shop-editorial-hero__copy">
+          <p class="eyebrow">THREON MAĞAZA</p>
+          <h1>YENİ SEZON KAPSÜLÜ</h1>
+          <p>Ağır gramajlı temel parçalar, temiz sokak giyimi silüetleri ve premium gardırop için seçilmiş sınırlı ürün düşüşleri.</p>
+          <div class="shop-hero-actions">
+            <a class="button button-primary" href="#catalog">Alışverişe başla</a>
+            <a class="button button-secondary-dark" href="lookbook.html">Lookbook'u gör</a>
+          </div>
+        </div>
+        <a class="shop-editorial-hero__image" href="collection.html">
+          <img src="assets/threon-fashion-hero.png" alt="THREON yeni sezon mağaza vitrini" />
+          <span>FW26 SEÇKİSİ</span>
+        </a>
+      </section>
+
+      <div class="visual-slot visual-slot--shop" data-visual-slot="products-after-hero"></div>
+
+      <section class="shop-category-strip" data-shop-category-strip aria-label="THREON kategori vitrini"></section>
+
+      <section class="shop-assurance-rail" aria-label="THREON alışveriş ayrıcalıkları">
+        <article>
+          <span>01</span>
+          <strong>Premium paketleme</strong>
+          <p>Her sipariş korumalı ambalaj ve temiz THREON sunumuyla hazırlanır.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <strong>Üyeye hızlı ödeme</strong>
+          <p>OTP doğrulamalı hesap, sipariş geçmişi ve geri dönen müşteriler için daha hızlı ödeme akışı.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <strong>Şeffaf fiyatlandırma</strong>
+          <p>İndirimli fiyat, karşılaştırma fiyatı ve kazanç bilgisi her üründe net gösterilir.</p>
+        </article>
+      </section>
+
+      <section class="catalog-section" id="catalog">
+        <div class="catalog-head">
+          <div>
+            <p class="eyebrow">Katalog</p>
+            <h2>THREON ürünleri</h2>
+            <span data-product-count>Ürünler yükleniyor...</span>
+          </div>
+          <label class="catalog-sort">
+            <span>Sıralama</span>
+            <select data-product-sort>
+              <option value="featured">Öne çıkanlar</option>
+              <option value="price-asc">Fiyat düşükten yükseğe</option>
+              <option value="price-desc">Fiyat yüksekten düşüğe</option>
+              <option value="newest">En yeni ürünler</option>
+            </select>
+          </label>
+        </div>
+        <div class="catalog-tools">
+          <label class="search-field">
+            <span>Arama</span>
+            <input type="search" placeholder="Kapüşonlu, pantolon, kaban..." data-product-search />
+          </label>
+          <div class="category-tabs" data-category-tabs aria-label="Kategori filtreleri"></div>
+        </div>
+        <div class="subcategory-tabs" data-subcategory-tabs aria-label="Alt kategori filtreleri" hidden></div>
+        <div class="catalog-filter-panel" data-catalog-filters>
+          <label class="check-toggle">
+            <input type="checkbox" data-filter-sale />
+            <span>Sadece indirim</span>
+          </label>
+          <label class="check-toggle">
+            <input type="checkbox" data-filter-stock checked />
+            <span>Stokta olanlar</span>
+          </label>
+          <label>
+            <span>Beden</span>
+            <select data-filter-size></select>
+          </label>
+          <label>
+            <span>Renk</span>
+            <select data-filter-color></select>
+          </label>
+          <label class="price-range-filter">
+            <span>Maksimum fiyat <strong data-filter-price-label></strong></span>
+            <input type="range" min="0" max="5000" step="50" data-filter-price />
+          </label>
+          <button class="mini-button" type="button" data-filter-reset>Filtreleri sıfırla</button>
+        </div>
+        <div class="visual-slot visual-slot--shop" data-visual-slot="products-before-grid"></div>
+        <div class="product-grid shop-product-grid" data-products-grid>
+          <div class="loading-line">Ürünler yükleniyor...</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span data-year></span> <span data-brand-name>Threon</span>. Tüm hakları saklıdır.</p>
+      <a href="contact.html">Destek al</a>
+    </footer>
+
+    <script src="script.js?v=threon-restore-20260621"></script>
+  </body>
+</html>

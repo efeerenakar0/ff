@@ -1,0 +1,247 @@
+{
+  "generatedAt": "2026-06-20T10:02:14.074Z",
+  "products": 10601,
+  "publicProducts": 10601,
+  "genderCounts": {
+    "Kadın": 5604,
+    "Erkek": 1151,
+    "Unisex": 3855
+  },
+  "checks": {
+    "tshirtInShort": 0,
+    "pantsInAccessory": 0,
+    "jacketInAccessory": 0,
+    "genderless": 0,
+    "legacySubcategories": 0
+  },
+  "topCategories": [
+    {
+      "path": "Üst Giyim / T-Shirt",
+      "count": 1424
+    },
+    {
+      "path": "Üst Giyim / Bluz",
+      "count": 888
+    },
+    {
+      "path": "Üst Giyim / Gömlek",
+      "count": 888
+    },
+    {
+      "path": "Alt Giyim / Pantolon",
+      "count": 735
+    },
+    {
+      "path": "İç Giyim / Külot",
+      "count": 618
+    },
+    {
+      "path": "Üst Giyim / Sweatshirt",
+      "count": 545
+    },
+    {
+      "path": "Üst Giyim / Kapüşonlu",
+      "count": 521
+    },
+    {
+      "path": "Üst Giyim / Triko | Kazak",
+      "count": 519
+    },
+    {
+      "path": "İç Giyim / Sütyen",
+      "count": 492
+    },
+    {
+      "path": "Dış Giyim / Ceket",
+      "count": 452
+    },
+    {
+      "path": "Alt Giyim / Şort",
+      "count": 401
+    },
+    {
+      "path": "Alt Giyim / Etek",
+      "count": 341
+    },
+    {
+      "path": "Alt Giyim / Eşofman Altı",
+      "count": 320
+    },
+    {
+      "path": "Üst Giyim / Elbise",
+      "count": 311
+    },
+    {
+      "path": "Alt Giyim / Jeans",
+      "count": 271
+    },
+    {
+      "path": "Aksesuar / Çanta",
+      "count": 241
+    },
+    {
+      "path": "Takımlar / Eşofman Takımı",
+      "count": 217
+    },
+    {
+      "path": "İç Giyim / Boxer",
+      "count": 118
+    },
+    {
+      "path": "Alt Giyim / Çorap",
+      "count": 113
+    },
+    {
+      "path": "Dış Giyim / Kaban",
+      "count": 98
+    },
+    {
+      "path": "Üst Giyim / Yelek",
+      "count": 96
+    },
+    {
+      "path": "Aksesuar / Şapka",
+      "count": 92
+    },
+    {
+      "path": "Takımlar / Alt Üst Takım",
+      "count": 88
+    },
+    {
+      "path": "İç Giyim / Babydoll & Bodysuit",
+      "count": 51
+    },
+    {
+      "path": "Aksesuar / Cüzdan",
+      "count": 51
+    },
+    {
+      "path": "Dış Giyim / Palto | Trençkot",
+      "count": 47
+    },
+    {
+      "path": "Plaj Giyim / Mayo",
+      "count": 47
+    },
+    {
+      "path": "Aksesuar / Şal | Fular",
+      "count": 45
+    },
+    {
+      "path": "Plaj Giyim / Plaj Üstü",
+      "count": 38
+    },
+    {
+      "path": "Aksesuar / Bileklik",
+      "count": 38
+    },
+    {
+      "path": "İç Giyim / Atlet & Body",
+      "count": 37
+    },
+    {
+      "path": "Aksesuar / Kemer",
+      "count": 35
+    },
+    {
+      "path": "Dış Giyim / Mont",
+      "count": 30
+    },
+    {
+      "path": "Alt Giyim / Tayt",
+      "count": 30
+    },
+    {
+      "path": "Aksesuar / Yüzük",
+      "count": 30
+    },
+    {
+      "path": "İç Giyim / Korse",
+      "count": 29
+    },
+    {
+      "path": "Takımlar / Şort Takım",
+      "count": 29
+    },
+    {
+      "path": "Üst Giyim / Tunik",
+      "count": 28
+    },
+    {
+      "path": "Aksesuar / Kolye",
+      "count": 25
+    },
+    {
+      "path": "Alt Giyim / Tulum | Salopet",
+      "count": 24
+    },
+    {
+      "path": "İç Giyim / Bralet",
+      "count": 24
+    },
+    {
+      "path": "Aksesuar / Küpe",
+      "count": 23
+    },
+    {
+      "path": "Plaj Giyim / Bikini Üst",
+      "count": 21
+    },
+    {
+      "path": "Aksesuar / Gözlük",
+      "count": 19
+    },
+    {
+      "path": "Plaj Giyim / Bikini Alt",
+      "count": 18
+    },
+    {
+      "path": "İç Giyim / Diğer İç Giyim",
+      "count": 15
+    },
+    {
+      "path": "İç Giyim / Jartiyer",
+      "count": 13
+    },
+    {
+      "path": "Plaj Giyim / Deniz Şortu",
+      "count": 12
+    },
+    {
+      "path": "Aksesuar / Parfüm",
+      "count": 10
+    },
+    {
+      "path": "Aksesuar / Aksesuar",
+      "count": 9
+    },
+    {
+      "path": "Alt Giyim / Terlik",
+      "count": 8
+    },
+    {
+      "path": "Dış Giyim / Bomber",
+      "count": 7
+    },
+    {
+      "path": "Aksesuar / Takı",
+      "count": 7
+    },
+    {
+      "path": "Gift Cards / Hediye Kartı",
+      "count": 5
+    },
+    {
+      "path": "Alt Giyim / Kargo Pantolon",
+      "count": 3
+    },
+    {
+      "path": "İç Giyim / Kombinezon & Jüpon",
+      "count": 3
+    },
+    {
+      "path": "Alt Giyim / Ayakkabı",
+      "count": 1
+    }
+  ]
+}

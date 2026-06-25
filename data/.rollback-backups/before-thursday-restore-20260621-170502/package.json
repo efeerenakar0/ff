@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "import:fashion": "node scripts/import-quzu-dilvin-manuka-products.js",
+    "start": "node server.js"
+  }
+}

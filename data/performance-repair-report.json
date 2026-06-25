@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-06-20T03:10:21.063Z",
+  "backups": {
+    "siteData": "data/.import-backups/site-data-before-performance-repair-2026-06-20T03-10-06-567Z.json",
+    "sitePublic": "data/.import-backups/site-public-before-performance-repair-2026-06-20T03-10-06-567Z.json"
+  },
+  "productsTotal": 10601,
+  "primaryImagesRepaired": 6976,
+  "primaryImagesRepairedFromSource": 0,
+  "primaryImagesRepairedWithFallback": 6976,
+  "galleryImagesRemoved": 37476,
+  "galleryImagesAddedFromSource": 2005,
+  "variantImagesRepaired": 37861,
+  "embeddedVisualsConverted": 10,
+  "missingVisualsRepaired": 0,
+  "localMissingReferencesAfter": 0,
+  "dataUrlVisualsAfter": 0,
+  "publicDataBytesBefore": 11532557,
+  "siteDataBytesBefore": 43477370,
+  "siteDataBytesAfter": 35799010,
+  "publicDataBytesAfter": 11207183,
+  "siteDataBytesSaved": 7678360,
+  "publicDataBytesSaved": 325374,
+  "minifiedPublicDataAt": "2026-06-20T03:27:58.796Z",
+  "publicDataBytesAfterMinify": 8106491
+}

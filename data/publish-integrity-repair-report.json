@@ -1,0 +1,1148 @@
+{
+  "repairedAt": "2026-06-20T10:23:18.606Z",
+  "backupStamp": "2026-06-20T10-23-17-574Z",
+  "productCount": 10601,
+  "counters": {
+    "categoriesChanged": 1896,
+    "wrongSourceImagesBefore": 5820,
+    "imagesRestoredFromBackup": 5820,
+    "imagesMatchedLocalAsset": 0,
+    "imagesNeutralized": 0,
+    "variantImagesFixed": 31749,
+    "publicImagesFallbackFixed": 0
+  },
+  "finalAudit": {
+    "wrongSource": 0,
+    "problemCount": 58,
+    "problemSamples": [
+      [
+        "garment-in-accessory",
+        "A004 Atkı Bere Takımı-Koyu Kahve",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A004 Atkı Bere Takımı-Koyu Bej",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A004 Atkı Bere Takımı-Kırmızı",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A003 Atkı Bere Takımı-Bordo",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A004 Atkı Bere Takımı-Siyah",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A004 Atkı Bere Takımı-Sarı",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A004 Atkı Bere Takımı-Pudra",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A004 Atkı Bere Takımı-Lavanta",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A004 Atkı Bere Takımı-Gül Kurusu",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A003 Atkı Bere Takımı-Yeşil",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A003 Atkı Bere Takımı-Oranj",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A003 Atkı Bere Takımı-Menekşe",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A003 Atkı Bere Takımı-Karamel",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A003 Atkı Bere Takımı-Ekru",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "innerwear-outside",
+        "Ribbed Bra Üst",
+        "Plaj Giyim/Mayo"
+      ],
+      [
+        "innerwear-outside",
+        "Açık Gül Kurusu Çizgili Balensiz Çıkarılabilir Kaplı T-shirt Sütyen",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "Zebra Bra Üst",
+        "Plaj Giyim/Mayo"
+      ],
+      [
+        "innerwear-outside",
+        "Invisible Ribbed Kahverengi Sütyen",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "Invisible Ribbed Seramik Bej Sütyen",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "Ribbed Bra Bikini Üstü",
+        "Plaj Giyim/Mayo"
+      ],
+      [
+        "innerwear-outside",
+        "Seamless Bikini Üstü",
+        "Plaj Giyim/Mayo"
+      ],
+      [
+        "innerwear-outside",
+        "Bej Leopar Desenli Brode Detaylı Balensiz Tulum",
+        "Alt Giyim/Tulum | Salopet"
+      ],
+      [
+        "innerwear-outside",
+        "24 Saat İz Bırakmayan Lacivert Sütyen",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "#İzbırakmaz Siyah My Size One Size Lazer Kesim Kısa Tayt",
+        "Alt Giyim/Tayt"
+      ],
+      [
+        "innerwear-outside",
+        "Bej My Size One Size Lazer Kesim Kısa Tayt",
+        "Alt Giyim/Tayt"
+      ],
+      [
+        "innerwear-outside",
+        "Splendid Leo Dantel Kahverengi Bodysuit",
+        "Plaj Giyim/Mayo"
+      ],
+      [
+        "innerwear-outside",
+        "Zerogram - Ribbed Light Invisible Siyah Balensiz Sütyen",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "Ekru Pointel Şort",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "Lila Lace Şort",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "Kırık Beyaz Dantelli Gelin Şort",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "Kırık Beyaz Saten Şorty",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "Kırık Beyaz Lace Dantel Şort",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "Kırık Beyaz Chiffon Lace Dantel Şort",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "Ekru Collagen Şort",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "Parlak Kırmızı Rhea Şort",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "Krema Pembesi Pointel Teddy Tulum",
+        "Alt Giyim/Tulum | Salopet"
+      ],
+      [
+        "innerwear-outside",
+        "Siyah Chiffon Teddy Tulum",
+        "Alt Giyim/Tulum | Salopet"
+      ],
+      [
+        "innerwear-outside",
+        "Siyah Broderie Teddy Tulum",
+        "Alt Giyim/Tulum | Salopet"
+      ],
+      [
+        "innerwear-outside",
+        "Leopar Saten Çok Renkli Teddy Tulum",
+        "Alt Giyim/Tulum | Salopet"
+      ],
+      [
+        "innerwear-outside",
+        "Kırık Beyaz Candy Teddy Tulum",
+        "Alt Giyim/Tulum | Salopet"
+      ],
+      [
+        "innerwear-outside",
+        "Kırık Beyaz Removable Skirt Babydoll",
+        "Alt Giyim/Etek"
+      ],
+      [
+        "innerwear-outside",
+        "Siyah Ember Teddy Tulum",
+        "Alt Giyim/Tulum | Salopet"
+      ],
+      [
+        "innerwear-outside",
+        "Siyah Candy Teddy Tulum",
+        "Alt Giyim/Tulum | Salopet"
+      ],
+      [
+        "innerwear-outside",
+        "Kahverengi Saten Chiffon Teddy Tulum",
+        "Alt Giyim/Tulum | Salopet"
+      ],
+      [
+        "innerwear-outside",
+        "Siyah Nostalji Jartiyer-Pentilicious",
+        "Alt Giyim/Çorap"
+      ],
+      [
+        "innerwear-outside",
+        "Emilia Beyaz Jartiyer Çorabı",
+        "Alt Giyim/Çorap"
+      ],
+      [
+        "innerwear-outside",
+        "Emilia Siyah Jartiyer Çorabı",
+        "Alt Giyim/Çorap"
+      ],
+      [
+        "innerwear-outside",
+        "Fantezi Siyah Jartiyer",
+        "Alt Giyim/Çorap"
+      ],
+      [
+        "innerwear-outside",
+        "File Siyah Jartiyer Çorabı",
+        "Alt Giyim/Çorap"
+      ],
+      [
+        "innerwear-outside",
+        "Ten Premier 20 Silikonlu Jartiyer Çorap",
+        "Alt Giyim/Çorap"
+      ],
+      [
+        "innerwear-outside",
+        "Açık Mavi Çiçek Desenli Pamuklu Normal Bel Şort Külot - Inspired by Flora",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "Çok Renkli Modal Fitilli 2'li Düşük Bel Boxer",
+        "Plaj Giyim/Mayo"
+      ],
+      [
+        "innerwear-outside",
+        "Basic Bej Kısa Tayt",
+        "Alt Giyim/Tayt"
+      ],
+      [
+        "outerwear-outside",
+        "KOMBİNASYON UYUMLU BRWN TAKIM",
+        "Takımlar/Alt Üst Takım"
+      ],
+      [
+        "outerwear-outside",
+        "TAKIM RÜZGARLIKLI OVERSIZE ŞİŞME MONT",
+        "Takımlar/Alt Üst Takım"
+      ],
+      [
+        "outerwear-outside",
+        "TAKIM RÜZGARLIKLI OVERSIZE ŞİŞME MONT",
+        "Takımlar/Alt Üst Takım"
+      ],
+      [
+        "outerwear-outside",
+        "ÖNÜ KAPALI FERMUAR DETAYLI TAKIM",
+        "Takımlar/Alt Üst Takım"
+      ],
+      [
+        "outerwear-outside",
+        "ÖNÜ KAPALI FERMUAR DETAYLI TAKIM",
+        "Takımlar/Alt Üst Takım"
+      ]
+    ],
+    "concentrated": [],
+    "topPaths": [
+      {
+        "key": "Alt Giyim/Şort",
+        "count": 1157
+      },
+      {
+        "key": "Üst Giyim/Gömlek",
+        "count": 882
+      },
+      {
+        "key": "İç Giyim/Sütyen",
+        "count": 755
+      },
+      {
+        "key": "Alt Giyim/Pantolon",
+        "count": 715
+      },
+      {
+        "key": "Üst Giyim/T-Shirt",
+        "count": 713
+      },
+      {
+        "key": "Üst Giyim/Sweatshirt",
+        "count": 541
+      },
+      {
+        "key": "Üst Giyim/Kapüşonlu",
+        "count": 531
+      },
+      {
+        "key": "Üst Giyim/Bluz",
+        "count": 528
+      },
+      {
+        "key": "İç Giyim/Külot",
+        "count": 509
+      },
+      {
+        "key": "Dış Giyim/Ceket",
+        "count": 431
+      },
+      {
+        "key": "Alt Giyim/Jeans",
+        "count": 393
+      },
+      {
+        "key": "Üst Giyim/Triko | Kazak",
+        "count": 357
+      },
+      {
+        "key": "Alt Giyim/Eşofman Altı",
+        "count": 357
+      },
+      {
+        "key": "Üst Giyim/Elbise",
+        "count": 345
+      },
+      {
+        "key": "Alt Giyim/Etek",
+        "count": 318
+      },
+      {
+        "key": "Aksesuar/Çanta",
+        "count": 256
+      },
+      {
+        "key": "Takımlar/Eşofman Takımı",
+        "count": 239
+      },
+      {
+        "key": "İç Giyim/Atlet & Body",
+        "count": 137
+      },
+      {
+        "key": "Alt Giyim/Çorap",
+        "count": 119
+      },
+      {
+        "key": "Üst Giyim/Yelek",
+        "count": 108
+      },
+      {
+        "key": "Takımlar/Alt Üst Takım",
+        "count": 104
+      },
+      {
+        "key": "Dış Giyim/Kaban",
+        "count": 100
+      },
+      {
+        "key": "İç Giyim/Boxer",
+        "count": 92
+      },
+      {
+        "key": "Plaj Giyim/Mayo",
+        "count": 88
+      },
+      {
+        "key": "Aksesuar/Şapka",
+        "count": 72
+      },
+      {
+        "key": "İç Giyim/Babydoll & Bodysuit",
+        "count": 56
+      },
+      {
+        "key": "Aksesuar/Cüzdan",
+        "count": 51
+      },
+      {
+        "key": "Dış Giyim/Palto | Trençkot",
+        "count": 47
+      },
+      {
+        "key": "Plaj Giyim/Plaj Üstü",
+        "count": 47
+      },
+      {
+        "key": "Aksesuar/Şal | Fular",
+        "count": 47
+      },
+      {
+        "key": "Takımlar/Takım Elbise",
+        "count": 46
+      },
+      {
+        "key": "İç Giyim/Büstiyer",
+        "count": 39
+      },
+      {
+        "key": "Dış Giyim/Bomber",
+        "count": 37
+      },
+      {
+        "key": "Dış Giyim/Mont",
+        "count": 35
+      },
+      {
+        "key": "Aksesuar/Kemer",
+        "count": 35
+      },
+      {
+        "key": "Takımlar/Şort Takım",
+        "count": 34
+      },
+      {
+        "key": "Aksesuar/Bileklik",
+        "count": 32
+      },
+      {
+        "key": "Aksesuar/Yüzük",
+        "count": 31
+      },
+      {
+        "key": "Üst Giyim/Tunik",
+        "count": 28
+      },
+      {
+        "key": "Aksesuar/Kolye",
+        "count": 25
+      }
+    ]
+  },
+  "publicAudit": {
+    "wrongSource": 0,
+    "problemCount": 53,
+    "problemSamples": [
+      [
+        "pantolon-page-not-pants",
+        "72705 %100 Pamuk Wide Leg Bermuda-Siyah",
+        "Alt Giyim/Pantolon"
+      ],
+      [
+        "pantolon-page-not-pants",
+        "72705 %100 Pamuk Wide Leg Bermuda-Hardal",
+        "Alt Giyim/Pantolon"
+      ],
+      [
+        "pantolon-page-not-pants",
+        "72669 Kemerli Pensli Şort-Yeşil",
+        "Alt Giyim/Pantolon"
+      ],
+      [
+        "pantolon-page-not-pants",
+        "72248 Kemerli Pensli Şort-Beyaz",
+        "Alt Giyim/Pantolon"
+      ],
+      [
+        "pantolon-page-not-pants",
+        "72253 Kemerli Pensli Mini Şort-Lacivert",
+        "Alt Giyim/Pantolon"
+      ],
+      [
+        "short-page-not-shorts",
+        "Açık Gül Kurusu Çizgili Balensiz Çıkarılabilir Kaplı T-shirt Sütyen",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "Açık Gül Kurusu Çizgili Balensiz Çıkarılabilir Kaplı T-shirt Sütyen",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "short-page-not-shorts",
+        "İnce Askılı Beyaz New Cami Atlet",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "short-page-not-shorts",
+        "İnce Askılı Siyah New Cami Atlet",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "garment-in-accessory",
+        "A004 Atkı Bere Takımı-Koyu Kahve",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A004 Atkı Bere Takımı-Koyu Bej",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A004 Atkı Bere Takımı-Kırmızı",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A003 Atkı Bere Takımı-Bordo",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A004 Atkı Bere Takımı-Siyah",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A004 Atkı Bere Takımı-Sarı",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A004 Atkı Bere Takımı-Pudra",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A004 Atkı Bere Takımı-Lavanta",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A004 Atkı Bere Takımı-Gül Kurusu",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A003 Atkı Bere Takımı-Yeşil",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A003 Atkı Bere Takımı-Oranj",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A003 Atkı Bere Takımı-Menekşe",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A003 Atkı Bere Takımı-Karamel",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "garment-in-accessory",
+        "A003 Atkı Bere Takımı-Ekru",
+        "Aksesuar/Şapka"
+      ],
+      [
+        "short-page-not-shorts",
+        "Bisiklet Yaka Uzun Kol Basic Crop Bluz Ekru",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "short-page-not-shorts",
+        "Bisiklet Yaka Uzun Kol Basic Crop Bluz Siyah",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "short-page-not-shorts",
+        "32826 Dantel Detaylı Kısa Kollu T-shirt-Ekru",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "short-page-not-shorts",
+        "32826 Dantel Detaylı Kısa Kollu T-shirt-Siyah",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "short-page-not-shorts",
+        "32826 Dantel Detaylı Kısa Kollu T-shirt-Beyaz",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "short-page-not-shorts",
+        "32826 Dantel Detaylı Kısa Kollu T-shirt-Koyu Kahve",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "short-page-not-shorts",
+        "32826 Dantel Detaylı Kısa Kollu T-shirt-Lacivert",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "short-page-not-shorts",
+        "Invisible Ribbed Kahverengi Sütyen",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "Invisible Ribbed Kahverengi Sütyen",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "short-page-not-shorts",
+        "Invisible Ribbed Seramik Bej Sütyen",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "Invisible Ribbed Seramik Bej Sütyen",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "short-page-not-shorts",
+        "24 Saat İz Bırakmayan Lacivert Sütyen",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "24 Saat İz Bırakmayan Lacivert Sütyen",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "short-page-not-shorts",
+        "Zerogram - Ribbed Light Invisible Siyah Balensiz Sütyen",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "Zerogram - Ribbed Light Invisible Siyah Balensiz Sütyen",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "Kırık Beyaz Removable Skirt Babydoll",
+        "Alt Giyim/Etek"
+      ],
+      [
+        "innerwear-outside",
+        "Açık Mavi Çiçek Desenli Pamuklu Normal Bel Şort Külot - Inspired by Flora",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "short-page-not-shorts",
+        "Açık Mavi Bisiklet Yaka Dantelli Crop Üst",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "short-page-not-shorts",
+        "V Yaka Askılı Siyah Bluz",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "Siyah Nostalji Jartiyer-Pentilicious",
+        "Alt Giyim/Çorap"
+      ],
+      [
+        "innerwear-outside",
+        "Emilia Beyaz Jartiyer Çorabı",
+        "Alt Giyim/Çorap"
+      ],
+      [
+        "innerwear-outside",
+        "Emilia Siyah Jartiyer Çorabı",
+        "Alt Giyim/Çorap"
+      ],
+      [
+        "innerwear-outside",
+        "Fantezi Siyah Jartiyer",
+        "Alt Giyim/Çorap"
+      ],
+      [
+        "innerwear-outside",
+        "File Siyah Jartiyer Çorabı",
+        "Alt Giyim/Çorap"
+      ],
+      [
+        "short-page-not-shorts",
+        "Kare Yaka Siyah Üst",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "outerwear-outside",
+        "TAKIM RÜZGARLIKLI OVERSIZE ŞİŞME MONT",
+        "Takımlar/Alt Üst Takım"
+      ],
+      [
+        "outerwear-outside",
+        "TAKIM RÜZGARLIKLI OVERSIZE ŞİŞME MONT",
+        "Takımlar/Alt Üst Takım"
+      ],
+      [
+        "short-page-not-shorts",
+        "Siyah Gözlük",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "short-page-not-shorts",
+        "Mor Gözlük",
+        "Alt Giyim/Şort"
+      ],
+      [
+        "innerwear-outside",
+        "Ten Premier 20 Silikonlu Jartiyer Çorap",
+        "Alt Giyim/Çorap"
+      ]
+    ],
+    "concentrated": [],
+    "topPaths": [
+      {
+        "key": "Alt Giyim/Şort",
+        "count": 1157
+      },
+      {
+        "key": "Üst Giyim/Gömlek",
+        "count": 882
+      },
+      {
+        "key": "İç Giyim/Sütyen",
+        "count": 755
+      },
+      {
+        "key": "Alt Giyim/Pantolon",
+        "count": 715
+      },
+      {
+        "key": "Üst Giyim/T-Shirt",
+        "count": 713
+      },
+      {
+        "key": "Üst Giyim/Sweatshirt",
+        "count": 541
+      },
+      {
+        "key": "Üst Giyim/Kapüşonlu",
+        "count": 531
+      },
+      {
+        "key": "Üst Giyim/Bluz",
+        "count": 528
+      },
+      {
+        "key": "İç Giyim/Külot",
+        "count": 509
+      },
+      {
+        "key": "Dış Giyim/Ceket",
+        "count": 431
+      },
+      {
+        "key": "Alt Giyim/Jeans",
+        "count": 393
+      },
+      {
+        "key": "Üst Giyim/Triko | Kazak",
+        "count": 357
+      },
+      {
+        "key": "Alt Giyim/Eşofman Altı",
+        "count": 357
+      },
+      {
+        "key": "Üst Giyim/Elbise",
+        "count": 345
+      },
+      {
+        "key": "Alt Giyim/Etek",
+        "count": 318
+      },
+      {
+        "key": "Aksesuar/Çanta",
+        "count": 256
+      },
+      {
+        "key": "Takımlar/Eşofman Takımı",
+        "count": 239
+      },
+      {
+        "key": "İç Giyim/Atlet & Body",
+        "count": 137
+      },
+      {
+        "key": "Alt Giyim/Çorap",
+        "count": 119
+      },
+      {
+        "key": "Üst Giyim/Yelek",
+        "count": 108
+      },
+      {
+        "key": "Takımlar/Alt Üst Takım",
+        "count": 104
+      },
+      {
+        "key": "Dış Giyim/Kaban",
+        "count": 100
+      },
+      {
+        "key": "İç Giyim/Boxer",
+        "count": 92
+      },
+      {
+        "key": "Plaj Giyim/Mayo",
+        "count": 88
+      },
+      {
+        "key": "Aksesuar/Şapka",
+        "count": 72
+      },
+      {
+        "key": "İç Giyim/Babydoll & Bodysuit",
+        "count": 56
+      },
+      {
+        "key": "Aksesuar/Cüzdan",
+        "count": 51
+      },
+      {
+        "key": "Dış Giyim/Palto | Trençkot",
+        "count": 47
+      },
+      {
+        "key": "Plaj Giyim/Plaj Üstü",
+        "count": 47
+      },
+      {
+        "key": "Aksesuar/Şal | Fular",
+        "count": 47
+      },
+      {
+        "key": "Takımlar/Takım Elbise",
+        "count": 46
+      },
+      {
+        "key": "İç Giyim/Büstiyer",
+        "count": 39
+      },
+      {
+        "key": "Dış Giyim/Bomber",
+        "count": 37
+      },
+      {
+        "key": "Dış Giyim/Mont",
+        "count": 35
+      },
+      {
+        "key": "Aksesuar/Kemer",
+        "count": 35
+      },
+      {
+        "key": "Takımlar/Şort Takım",
+        "count": 34
+      },
+      {
+        "key": "Aksesuar/Bileklik",
+        "count": 32
+      },
+      {
+        "key": "Aksesuar/Yüzük",
+        "count": 31
+      },
+      {
+        "key": "Üst Giyim/Tunik",
+        "count": 28
+      },
+      {
+        "key": "Aksesuar/Kolye",
+        "count": 25
+      }
+    ]
+  },
+  "sourceImageHostCounts": {
+    "dilvin": {
+      "www.dilvin.com.tr": 972
+    },
+    "lesbenjamins": {
+      "assets/lesbenjamins": 313,
+      "assets/product-bomber.png": 177,
+      "assets/product-hoodie.png": 494,
+      "assets/product-cargo.png": 1023,
+      "assets/threon-fashion-hero.png": 83,
+      "assets/product-sneaker.png": 467
+    },
+    "lofibuy": {
+      "assets/product-cargo.png": 17,
+      "assets/product-hoodie.png": 28,
+      "assets/lofibuy": 13,
+      "assets/threon-fashion-hero.png": 28,
+      "assets/product-bomber.png": 13
+    },
+    "manuka": {
+      "manukacdn.com": 1057
+    },
+    "none": {
+      "quzu.com.tr": 6,
+      "assets/lesbenjamins": 1,
+      "www.dilvin.com.tr": 2,
+      "assets/vamosclo": 1,
+      "manukacdn.com": 1
+    },
+    "penti": {
+      "assets/threon-fashion-hero.png": 1480,
+      "assets/product-sneaker.png": 1,
+      "assets/product-cargo.png": 16
+    },
+    "quzu": {
+      "quzu.com.tr": 1469
+    },
+    "vamosclo": {
+      "assets/vamosclo": 946,
+      "assets/product-bomber.png": 51,
+      "assets/product-hoodie.png": 1324,
+      "assets/threon-fashion-hero.png": 56,
+      "assets/product-cargo.png": 562
+    }
+  },
+  "secondPass": {
+    "repairedAt": "2026-06-20T10:27:33.253Z",
+    "categoriesChanged": 1309,
+    "audit": {
+      "problemCount": 5,
+      "problemSamples": [
+        [
+          "short-page-not-shorts",
+          "İnce Askılı Beyaz New Cami Atlet",
+          "Alt Giyim/Şort"
+        ],
+        [
+          "short-page-not-shorts",
+          "İnce Askılı Siyah New Cami Atlet",
+          "Alt Giyim/Şort"
+        ],
+        [
+          "innerwear-outside",
+          "Broderie Belt Kırık Beyaz Jartiyer",
+          "Aksesuar/Kemer"
+        ],
+        [
+          "short-page-not-shorts",
+          "Kare Yaka Siyah Üst",
+          "Alt Giyim/Şort"
+        ],
+        [
+          "garment-in-accessory",
+          "Altaicana Dark Denim Şapka",
+          "Aksesuar/Şapka"
+        ]
+      ],
+      "topPaths": [
+        {
+          "key": "Üst Giyim/T-Shirt",
+          "count": 1489
+        },
+        {
+          "key": "Üst Giyim/Gömlek",
+          "count": 900
+        },
+        {
+          "key": "Alt Giyim/Pantolon",
+          "count": 701
+        },
+        {
+          "key": "İç Giyim/Külot",
+          "count": 637
+        },
+        {
+          "key": "Üst Giyim/Bluz",
+          "count": 577
+        },
+        {
+          "key": "İç Giyim/Sütyen",
+          "count": 570
+        },
+        {
+          "key": "Üst Giyim/Sweatshirt",
+          "count": 545
+        },
+        {
+          "key": "Üst Giyim/Kapüşonlu",
+          "count": 521
+        },
+        {
+          "key": "Dış Giyim/Ceket",
+          "count": 428
+        },
+        {
+          "key": "Alt Giyim/Şort",
+          "count": 412
+        },
+        {
+          "key": "Üst Giyim/Triko | Kazak",
+          "count": 371
+        },
+        {
+          "key": "Üst Giyim/Elbise",
+          "count": 364
+        },
+        {
+          "key": "Alt Giyim/Eşofman Altı",
+          "count": 357
+        },
+        {
+          "key": "Alt Giyim/Etek",
+          "count": 346
+        },
+        {
+          "key": "Alt Giyim/Jeans",
+          "count": 270
+        },
+        {
+          "key": "Takımlar/Eşofman Takımı",
+          "count": 239
+        },
+        {
+          "key": "Aksesuar/Çanta",
+          "count": 235
+        },
+        {
+          "key": "Alt Giyim/Çorap",
+          "count": 113
+        },
+        {
+          "key": "Üst Giyim/Yelek",
+          "count": 112
+        },
+        {
+          "key": "İç Giyim/Boxer",
+          "count": 106
+        },
+        {
+          "key": "İç Giyim/Atlet & Body",
+          "count": 104
+        },
+        {
+          "key": "Dış Giyim/Kaban",
+          "count": 100
+        },
+        {
+          "key": "Aksesuar/Şapka",
+          "count": 94
+        },
+        {
+          "key": "Takımlar/Alt Üst Takım",
+          "count": 89
+        },
+        {
+          "key": "İç Giyim/Babydoll & Bodysuit",
+          "count": 88
+        },
+        {
+          "key": "Plaj Giyim/Mayo",
+          "count": 88
+        },
+        {
+          "key": "İç Giyim/Büstiyer",
+          "count": 56
+        },
+        {
+          "key": "Aksesuar/Şal | Fular",
+          "count": 52
+        },
+        {
+          "key": "Aksesuar/Cüzdan",
+          "count": 51
+        },
+        {
+          "key": "Dış Giyim/Palto | Trençkot",
+          "count": 47
+        },
+        {
+          "key": "Plaj Giyim/Plaj Üstü",
+          "count": 45
+        },
+        {
+          "key": "Takımlar/Takım Elbise",
+          "count": 44
+        },
+        {
+          "key": "Aksesuar/Bileklik",
+          "count": 38
+        },
+        {
+          "key": "Dış Giyim/Bomber",
+          "count": 37
+        },
+        {
+          "key": "Aksesuar/Kemer",
+          "count": 37
+        },
+        {
+          "key": "Dış Giyim/Mont",
+          "count": 32
+        },
+        {
+          "key": "Aksesuar/Yüzük",
+          "count": 30
+        },
+        {
+          "key": "Takımlar/Şort Takım",
+          "count": 29
+        },
+        {
+          "key": "Üst Giyim/Tunik",
+          "count": 28
+        },
+        {
+          "key": "Aksesuar/Kolye",
+          "count": 27
+        }
+      ]
+    }
+  }
+}

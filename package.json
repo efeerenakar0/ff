@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "build": "node scripts/build-cloudflare.js",
+    "import:fashion": "node scripts/import-quzu-dilvin-manuka-products.js",
+    "start": "node server.js"
+  }
+}

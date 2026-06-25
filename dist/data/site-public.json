@@ -1,0 +1,580 @@
+{
+  "settings": {
+    "brandName": "THREON",
+    "tagline": "Love for Threon",
+    "heroTitle": "New Season",
+    "heroSubtitle": "Clean silhouettes, heavyweight fabrics and everyday premium streetwear. Discover the THREON collection.",
+    "announcement": "THREE GIFT CARD | NEW SEASON | FREE SHIPPING 1500 TL+",
+    "contactEmail": "shop@threon.com.tr",
+    "phone": "+90 5354104896",
+    "address": "Antalya / Turkiye",
+    "heroImage": "assets/threon-fashion-hero.png",
+    "lastLofibuyImport": "2026-06-05T22:36:26.372Z",
+    "lofibuyProductCount": 99,
+    "lastVamosImport": "2026-06-06T12:11:10.422Z",
+    "vamosProductCount": 2939,
+    "vamosSourceProductCount": 2939,
+    "lastLesBenjaminsImport": "2026-06-06T13:51:32.962Z",
+    "lesBenjaminsProductCount": 2557,
+    "lesBenjaminsSourceProductCount": 2557,
+    "lastLesBenjaminsNameLocalization": "2026-06-06T16:47:50.556Z",
+    "lastProductDisplayCleanup": "2026-06-06T18:25:19.446Z",
+    "lastPentiImport": "2026-06-11T14:09:48.736Z",
+    "pentiProductCount": 1498,
+    "pentiCategoryPaths": [
+      "/tr/c/kadin-ic-giyim",
+      "/tr/c/boxer",
+      "/tr/c/erkek-atlet"
+    ],
+    "visualBlocks": [
+      {
+        "id": "products-after-hero-assets-uploads-mqo3iiqi-threon-fashion-hero-jpg",
+        "placement": "products-before-grid",
+        "status": "active",
+        "title": "Aşkın ve stilin en asil hali.",
+        "kicker": "",
+        "subtitle": "Birbirini tamamlayan ruhlar için tasarlandı.",
+        "image": "assets/uploads/mqo3mx0h-bttr-2.jpg",
+        "productSlug": "",
+        "href": "urun/quzu-vatkali-dik-yaka-pileli-mini-elbise-lacivert",
+        "cta": "",
+        "theme": "editorial",
+        "shape": "landscape",
+        "crop": "cover",
+        "objectPosition": "center center",
+        "showText": true,
+        "sortOrder": 10
+      },
+      {
+        "id": "hero-lookbook",
+        "placement": "home-hero",
+        "status": "active",
+        "title": "Lookbook",
+        "kicker": "THREON styling",
+        "subtitle": "Sezon hikayesini keşfet",
+        "image": "assets/hero-threon.png",
+        "productSlug": "",
+        "href": "lookbook.html",
+        "cta": "Lookbook",
+        "theme": "minimal",
+        "shape": "square",
+        "crop": "cover",
+        "objectPosition": "center center",
+        "showText": false,
+        "sortOrder": 10
+      },
+      {
+        "id": "hero-puskullu-ceket",
+        "placement": "home-hero",
+        "status": "active",
+        "title": "Püsküllü Sıfır Kol Ceket",
+        "kicker": "THREON hero",
+        "subtitle": "Sezonun kampanya görseli",
+        "image": "assets/uploads/site-data-settings-visualblocks-3-image-f46623ef50af.jpg",
+        "productSlug": "puskullu-sifir-kol-ceket",
+        "href": "",
+        "cta": "Ürünü incele",
+        "theme": "minimal",
+        "shape": "square",
+        "crop": "cover",
+        "objectPosition": "center center",
+        "showText": false,
+        "sortOrder": 20
+      },
+      {
+        "id": "home-hero-assets-uploads-mqjfozlh-bttr-jpg",
+        "placement": "home-hero",
+        "status": "active",
+        "title": "",
+        "kicker": "",
+        "subtitle": "",
+        "image": "assets/uploads/mqjfozlh-bttr.jpg?v=thursday-restore",
+        "productSlug": "",
+        "href": "",
+        "cta": "",
+        "theme": "editorial",
+        "shape": "landscape",
+        "crop": "cover",
+        "objectPosition": "center center",
+        "showText": false,
+        "sortOrder": 30
+      },
+      {
+        "id": "hero-new-season-capsule",
+        "placement": "home-hero",
+        "status": "draft",
+        "title": "New Season Capsule",
+        "kicker": "THREON",
+        "subtitle": "Yeni sezon kampanya vitrini",
+        "image": "assets/threon-fashion-hero.png",
+        "productSlug": "",
+        "href": "collection.html",
+        "cta": "Koleksiyonu gör",
+        "theme": "editorial",
+        "shape": "square",
+        "crop": "cover",
+        "objectPosition": "center center",
+        "showText": false,
+        "sortOrder": 40
+      },
+      {
+        "id": "home-hero-data-image-jpeg-base64-9j-4aaqskzjrgabaqaasabiaad-4qbmrxhpzgaa",
+        "placement": "home-hero",
+        "status": "active",
+        "title": "",
+        "kicker": "",
+        "subtitle": "",
+        "image": "assets/uploads/mqjgv1pc-threon-1672x940-sag-sol-doldurulmus.jpg?v=thursday-restore",
+        "productSlug": "",
+        "href": "",
+        "cta": "",
+        "theme": "editorial",
+        "shape": "square",
+        "crop": "cover",
+        "objectPosition": "center center",
+        "showText": false,
+        "sortOrder": 50
+      },
+      {
+        "id": "home-hero-data-image-jpeg-base64-9j-4aaqskzjrgabaqaasabiaad-4qbmrxhpzgaa",
+        "placement": "home-hero",
+        "status": "active",
+        "title": "",
+        "kicker": "",
+        "subtitle": "",
+        "image": "assets/uploads/site-data-settings-visualblocks-7-image-d9ed18e2f1b8.jpg",
+        "productSlug": "",
+        "href": "",
+        "cta": "",
+        "theme": "editorial",
+        "shape": "square",
+        "crop": "cover",
+        "objectPosition": "center center",
+        "showText": false,
+        "sortOrder": 60
+      },
+      {
+        "id": "home-hero-data-image-jpeg-base64-9j-4aaqskzjrgabaqaasabiaad-4qbmrxhpzgaa",
+        "placement": "home-hero",
+        "status": "active",
+        "title": "",
+        "kicker": "",
+        "subtitle": "",
+        "image": "assets/uploads/site-data-settings-visualblocks-8-image-78a82543ae51.jpg",
+        "productSlug": "lesbenjamins-jacket-301-lb24fwessfujc-301",
+        "href": "",
+        "cta": "",
+        "theme": "editorial",
+        "shape": "square",
+        "crop": "cover",
+        "objectPosition": "center center",
+        "showText": false,
+        "sortOrder": 70
+      },
+      {
+        "id": "lookbook-grid-data-image-jpeg-base64-9j-4aaqskzjrgabaqaasabiaad-4qbmrxhp-2",
+        "placement": "lookbook-grid",
+        "status": "active",
+        "title": "",
+        "kicker": "",
+        "subtitle": "",
+        "image": "assets/uploads/site-data-settings-visualblocks-9-image-f46623ef50af.jpg",
+        "productSlug": "",
+        "href": "",
+        "cta": "",
+        "theme": "editorial",
+        "shape": "square",
+        "crop": "cover",
+        "objectPosition": "center center",
+        "showText": false,
+        "sortOrder": 80
+      },
+      {
+        "id": "home-hero-data-image-jpeg-base64-9j-4aaqskzjrgabaqaasabiaad-4qbmrxhpzgaa",
+        "placement": "home-hero",
+        "status": "active",
+        "title": "",
+        "kicker": "",
+        "subtitle": "",
+        "image": "assets/uploads/site-data-settings-visualblocks-10-image-bf9f6cf5401b.jpg",
+        "productSlug": "",
+        "href": "collection.html?category=Dış+Giyim&subcategory=Ceket",
+        "cta": "",
+        "theme": "editorial",
+        "shape": "square",
+        "crop": "cover",
+        "objectPosition": "center center",
+        "showText": false,
+        "sortOrder": 90
+      },
+      {
+        "id": "home-hero-data-image-jpeg-base64-9j-4aaqskzjrgabaqaasabiaad-4qbmrxhpzgaa-2",
+        "placement": "home-hero",
+        "status": "draft",
+        "title": "",
+        "kicker": "",
+        "subtitle": "",
+        "image": "assets/uploads/site-data-settings-visualblocks-11-image-e616652d0957.jpg",
+        "productSlug": "vamosclo-oversize-lyocell-karisimli-takim-kahve-11827",
+        "href": "",
+        "cta": "",
+        "theme": "editorial",
+        "shape": "square",
+        "crop": "cover",
+        "objectPosition": "center center",
+        "showText": false,
+        "sortOrder": 100
+      },
+      {
+        "id": "home-after-featured-data-image-jpeg-base64-9j-4aaqskzjrgabaqaasabiaad-4q",
+        "placement": "home-after-featured",
+        "status": "active",
+        "title": "",
+        "kicker": "",
+        "subtitle": "Son 1 Ürün - Benzer Ürünleri Gör",
+        "image": "assets/uploads/site-data-settings-visualblocks-12-image-990b8081716f.jpg",
+        "productSlug": "",
+        "href": "collection.html?category=Dış+Giyim&subcategory=Ceket",
+        "cta": "",
+        "theme": "editorial",
+        "shape": "square",
+        "crop": "cover",
+        "objectPosition": "center center",
+        "showText": false,
+        "sortOrder": 110
+      },
+      {
+        "id": "lookbook-hero-current",
+        "placement": "lookbook-hero",
+        "status": "active",
+        "title": "Sade sokak giyimi, güçlü siluet.",
+        "kicker": "FW26 Stil Günlüğü",
+        "subtitle": "Yumuşak kullanım hissi, tok kumaşlar ve temiz renk bloklarıyla THREON sezon hikayesi.",
+        "image": "assets/uploads/site-data-settings-visualblocks-13-image-bb7f30ad05c1.jpg",
+        "productSlug": "",
+        "href": "lookbook.html",
+        "cta": "Lookbook",
+        "theme": "editorial",
+        "shape": "square",
+        "crop": "cover",
+        "objectPosition": "center center",
+        "showText": true,
+        "sortOrder": 120
+      },
+      {
+        "id": "lookbook-grid-ana-kapusonlu",
+        "placement": "lookbook-grid",
+        "status": "active",
+        "title": "Kombini gör",
+        "kicker": "",
+        "subtitle": "Kombini Gör",
+        "image": "assets/uploads/site-data-settings-visualblocks-14-image-bb7f30ad05c1.jpg",
+        "productSlug": "lofibuy-gaza-black-unisex-oversize-takim-gaza",
+        "href": "collection.html?category=Üst+Giyim&subcategory=Kapüşonlu",
+        "cta": "Kombini gör",
+        "theme": "editorial",
+        "shape": "square",
+        "crop": "cover",
+        "objectPosition": "center center",
+        "showText": false,
+        "sortOrder": 130
+      },
+      {
+        "id": "lookbook-grid-data-image-jpeg-base64-9j-4aaqskzjrgabaqaasabiaad-4qbmrxhp",
+        "placement": "lookbook-grid",
+        "status": "active",
+        "title": "",
+        "kicker": "",
+        "subtitle": "",
+        "image": "assets/uploads/site-data-settings-visualblocks-15-image-7aee389d9575.jpg",
+        "productSlug": "",
+        "href": "",
+        "cta": "",
+        "theme": "editorial",
+        "shape": "square",
+        "crop": "cover",
+        "objectPosition": "center center",
+        "showText": false,
+        "sortOrder": 140
+      }
+    ],
+    "dynamicShelves": [
+      {
+        "id": "new-arrivals",
+        "status": "active",
+        "title": "Yeni gelenler",
+        "label": "Katalog",
+        "mode": "newest",
+        "productSlugs": [],
+        "category": "",
+        "subcategory": "",
+        "limit": 4,
+        "sortOrder": 10
+      },
+      {
+        "id": "best-sellers",
+        "status": "active",
+        "title": "Çok satanlar",
+        "label": "Editoryal seçki",
+        "mode": "featured",
+        "productSlugs": [],
+        "category": "",
+        "subcategory": "",
+        "limit": 4,
+        "sortOrder": 20
+      },
+      {
+        "id": "limited-stock",
+        "status": "active",
+        "title": "Limitli stok",
+        "label": "Son adetler",
+        "mode": "lowStock",
+        "productSlugs": [],
+        "category": "",
+        "subcategory": "",
+        "limit": 4,
+        "sortOrder": 30
+      }
+    ],
+    "lastStockNormalization": "2026-06-14T03:08:27.045Z",
+    "minimumProductStock": 3,
+    "coupons": [
+      {
+        "id": "coupon-threon10",
+        "code": "THREON10",
+        "label": "THREON10",
+        "status": "active",
+        "type": "percent",
+        "value": 10,
+        "minSubtotal": 0,
+        "maxDiscount": 0,
+        "startsAt": "",
+        "endsAt": "",
+        "note": "Genel sepet indirimi"
+      },
+      {
+        "id": "coupon-freeship",
+        "code": "FREESHIP",
+        "label": "FREESHIP",
+        "status": "active",
+        "type": "shipping",
+        "value": 0,
+        "minSubtotal": 0,
+        "maxDiscount": 0,
+        "startsAt": "",
+        "endsAt": "",
+        "note": "Kargo kampanyası"
+      }
+    ],
+    "seo": {
+      "siteUrl": "https://threon.com.tr",
+      "defaultTitle": "THREON | Premium Giyim",
+      "defaultDescription": "THREON premium giyim koleksiyonu: kapsül seçkiler, limitli drop parçaları ve temiz sokak giyimi silüetleri.",
+      "sitemapEnabled": true
+    },
+    "analytics": {
+      "googleAnalyticsId": "",
+      "metaPixelId": "",
+      "conversionLabel": "",
+      "enabled": false
+    },
+    "drop": {
+      "title": "Limitli Ottoman Drop",
+      "productSlug": "vamosclo-plisse-takim-bej-3644",
+      "endsAt": "2026-07-01T21:00",
+      "enabled": true
+    },
+    "lastBrowserFashionImport": "2026-06-17T13:23:11.482Z",
+    "lastFashionImport": "2026-06-17T13:23:11.482Z",
+    "lastQuzuImport": "2026-06-17T13:23:11.482Z",
+    "quzuProductCount": 1469,
+    "quzuSourceProductCount": 1469,
+    "lastDilvinImport": "2026-06-17T13:23:11.482Z",
+    "dilvinProductCount": 972,
+    "dilvinSourceProductCount": 972,
+    "lastManukaImport": "2026-06-17T13:23:11.482Z",
+    "manukaProductCount": 1057,
+    "manukaSourceProductCount": 1057,
+    "fashionImportPriceMarkup": 400,
+    "fashionImportExcludedMarkupCategories": [
+      "Plaj Giyimi",
+      "İç Giyim",
+      "Aksesuar"
+    ],
+    "homeSections": [
+      {
+        "id": "hero",
+        "label": "Hero kampanya slider",
+        "status": "active",
+        "sortOrder": 10
+      },
+      {
+        "id": "visual-after-hero",
+        "label": "Hero altı vitrin görseli",
+        "status": "active",
+        "sortOrder": 20
+      },
+      {
+        "id": "ticker",
+        "label": "Sezon bilgi şeridi",
+        "status": "active",
+        "sortOrder": 30
+      },
+      {
+        "id": "featured-products",
+        "label": "Yeni gelenler ürünleri",
+        "status": "active",
+        "sortOrder": 40
+      },
+      {
+        "id": "visual-after-featured",
+        "label": "Yeni gelenler altı vitrin",
+        "status": "active",
+        "sortOrder": 50
+      },
+      {
+        "id": "nexframe",
+        "label": "NexFrame Merch bloğu",
+        "status": "active",
+        "sortOrder": 60
+      },
+      {
+        "id": "image-break",
+        "label": "Stüdyo görsel kırılımı",
+        "status": "active",
+        "sortOrder": 70
+      },
+      {
+        "id": "dynamic-shelves",
+        "label": "Canlı raflar",
+        "status": "active",
+        "sortOrder": 80
+      },
+      {
+        "id": "visual-after-dynamic",
+        "label": "Canlı raf altı vitrin",
+        "status": "active",
+        "sortOrder": 90
+      },
+      {
+        "id": "studio-products",
+        "label": "Stüdyo seçkisi ürünleri",
+        "status": "active",
+        "sortOrder": 100
+      },
+      {
+        "id": "visual-after-studio",
+        "label": "Stüdyo altı vitrin",
+        "status": "active",
+        "sortOrder": 110
+      },
+      {
+        "id": "category-board",
+        "label": "Kategori vitrini",
+        "status": "active",
+        "sortOrder": 120
+      },
+      {
+        "id": "gift-card",
+        "label": "THREE Gift Card",
+        "status": "active",
+        "sortOrder": 130
+      },
+      {
+        "id": "journal",
+        "label": "Atölye notları",
+        "status": "active",
+        "sortOrder": 140
+      },
+      {
+        "id": "service-strip",
+        "label": "Güvence şeridi",
+        "status": "active",
+        "sortOrder": 150
+      },
+      {
+        "id": "fit-finder",
+        "label": "Kalıp rehberi",
+        "status": "active",
+        "sortOrder": 160
+      },
+      {
+        "id": "support",
+        "label": "Sipariş sorgulama bloğu",
+        "status": "active",
+        "sortOrder": 170
+      },
+      {
+        "id": "visual-before-footer",
+        "label": "Footer öncesi vitrin",
+        "status": "active",
+        "sortOrder": 180
+      },
+      {
+        "id": "newsletter",
+        "label": "THREON Club bülten",
+        "status": "active",
+        "sortOrder": 190
+      }
+    ],
+    "lastGenderSectionUpdate": "2026-06-18T12:15:04.103Z",
+    "womenSectionProductCount": 9412,
+    "unisexInWomenSectionCount": 7739,
+    "tickerItems": [
+      "YENİ GELENLER",
+      "OVERSIZE KALIP",
+      "STÜDYO SEÇKİSİ",
+      "1500 TL+ ÜCRETSİZ KARGO",
+      "THREE GIFT CARD"
+    ]
+  },
+  "productsIndex": "data/products-index.json",
+  "productCount": 10596,
+  "productChunks": [
+    {
+      "file": "products-1.json",
+      "count": 1287,
+      "bytes": 1997541
+    },
+    {
+      "file": "products-2.json",
+      "count": 1349,
+      "bytes": 1997441
+    },
+    {
+      "file": "products-3.json",
+      "count": 1422,
+      "bytes": 1997627
+    },
+    {
+      "file": "products-4.json",
+      "count": 1391,
+      "bytes": 1998152
+    },
+    {
+      "file": "products-5.json",
+      "count": 1337,
+      "bytes": 1997554
+    },
+    {
+      "file": "products-6.json",
+      "count": 1373,
+      "bytes": 1998586
+    },
+    {
+      "file": "products-7.json",
+      "count": 1177,
+      "bytes": 1998172
+    },
+    {
+      "file": "products-8.json",
+      "count": 1194,
+      "bytes": 1997924
+    },
+    {
+      "file": "products-9.json",
+      "count": 66,
+      "bytes": 103241
+    }
+  ]
+}

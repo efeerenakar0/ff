@@ -1,0 +1,98 @@
+{
+  "generatedAt": "2026-06-20T08:26:44.405Z",
+  "products": 10601,
+  "sourceImagesRestored": 2005,
+  "pooledImagesAssigned": 7048,
+  "variantImagesRepaired": 46202,
+  "genericPrimaryBefore": 9053,
+  "genericPrimaryAfter": 0,
+  "brokenPrimaryAfter": 0,
+  "categorySummaryBefore": {
+    "Alt Giyim": {
+      "total": 3225,
+      "generic": 2616,
+      "uniqueImages": 614
+    },
+    "Üst Giyim": {
+      "total": 3428,
+      "generic": 2816,
+      "uniqueImages": 615
+    },
+    "Takımlar": {
+      "total": 432,
+      "generic": 397,
+      "uniqueImages": 39
+    },
+    "Dış Giyim": {
+      "total": 678,
+      "generic": 512,
+      "uniqueImages": 168
+    },
+    "İç Giyim": {
+      "total": 1699,
+      "generic": 1581,
+      "uniqueImages": 122
+    },
+    "Aksesuar": {
+      "total": 1027,
+      "generic": 1021,
+      "uniqueImages": 11
+    },
+    "Plaj Giyim": {
+      "total": 107,
+      "generic": 105,
+      "uniqueImages": 4
+    },
+    "Gift Cards": {
+      "total": 5,
+      "generic": 5,
+      "uniqueImages": 2
+    }
+  },
+  "categorySummaryAfter": {
+    "Alt Giyim": {
+      "total": 3225,
+      "generic": 0,
+      "uniqueImages": 1076
+    },
+    "Üst Giyim": {
+      "total": 3428,
+      "generic": 0,
+      "uniqueImages": 1480
+    },
+    "Takımlar": {
+      "total": 432,
+      "generic": 0,
+      "uniqueImages": 68
+    },
+    "Dış Giyim": {
+      "total": 678,
+      "generic": 0,
+      "uniqueImages": 379
+    },
+    "İç Giyim": {
+      "total": 1699,
+      "generic": 0,
+      "uniqueImages": 153
+    },
+    "Aksesuar": {
+      "total": 1027,
+      "generic": 0,
+      "uniqueImages": 355
+    },
+    "Plaj Giyim": {
+      "total": 107,
+      "generic": 0,
+      "uniqueImages": 42
+    },
+    "Gift Cards": {
+      "total": 5,
+      "generic": 0,
+      "uniqueImages": 5
+    }
+  },
+  "backups": {
+    "siteData": "data/.repair-backups/site-data-before-image-variety-2026-06-20T08-26-44-139Z.json",
+    "sitePublic": "data/.repair-backups/site-public-before-image-variety-2026-06-20T08-26-44-139Z.json"
+  }
+}

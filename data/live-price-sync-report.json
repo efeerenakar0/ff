@@ -1,0 +1,587 @@
+{
+  "syncedAt": "2026-06-18T03:21:07.856Z",
+  "sourceLinks": [
+    "https://quzu.com.tr",
+    "https://www.dilvin.com.tr",
+    "https://www.manuka.com.tr",
+    "https://vamosclo.com",
+    "https://lesbenjamins.com",
+    "https://lofibuy.com",
+    "https://www.penti.com"
+  ],
+  "backups": {
+    "siteData": "data/.import-backups/site-data-before-live-price-sync-2026-06-18T03-21-07-856Z.json",
+    "sitePublic": "data/.import-backups/site-public-before-live-price-sync-2026-06-18T03-21-07-856Z.json"
+  },
+  "totals": {
+    "products": 10601,
+    "exact": 10592,
+    "fallback": 9,
+    "unchanged": 2995,
+    "changed": 7606,
+    "zeroRemaining": 0
+  },
+  "bySource": {
+    "quzu": {
+      "products": 1469,
+      "exact": 1469,
+      "fallback": 0,
+      "unchanged": 257,
+      "changed": 1212
+    },
+    "dilvin": {
+      "products": 972,
+      "exact": 972,
+      "fallback": 0,
+      "unchanged": 148,
+      "changed": 824
+    },
+    "manuka": {
+      "products": 1057,
+      "exact": 1057,
+      "fallback": 0,
+      "unchanged": 307,
+      "changed": 750
+    },
+    "penti": {
+      "products": 1498,
+      "exact": 1498,
+      "fallback": 0,
+      "unchanged": 1498,
+      "changed": 0
+    },
+    "lesbenjamins": {
+      "products": 2557,
+      "exact": 2557,
+      "fallback": 0,
+      "unchanged": 769,
+      "changed": 1788
+    },
+    "vamosclo": {
+      "products": 2939,
+      "exact": 2930,
+      "fallback": 9,
+      "unchanged": 15,
+      "changed": 2924
+    },
+    "lofibuy": {
+      "products": 99,
+      "exact": 99,
+      "fallback": 0,
+      "unchanged": 1,
+      "changed": 98
+    },
+    "local": {
+      "products": 10,
+      "exact": 10,
+      "fallback": 0,
+      "unchanged": 0,
+      "changed": 10
+    }
+  },
+  "samples": [
+    {
+      "id": "quzu-2-cepli-mini-sort-naturel",
+      "source": "quzu",
+      "name": "2 Cepli Mini Şort Naturel",
+      "before": {
+        "price": "899",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "499",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-ajur-detayli-crop-triko-krem",
+      "source": "quzu",
+      "name": "Ajur Detaylı Crop Triko Krem",
+      "before": {
+        "price": "1150",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "750",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-ajur-detayli-ince-triko-krem",
+      "source": "quzu",
+      "name": "Ajur Detaylı İnce Triko Krem",
+      "before": {
+        "price": "899",
+        "comparePrice": "1100"
+      },
+      "after": {
+        "price": "499",
+        "comparePrice": "700"
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-ajur-detayli-ince-triko-siyah",
+      "source": "quzu",
+      "name": "Ajur Detaylı İnce Triko Siyah",
+      "before": {
+        "price": "899",
+        "comparePrice": "1100"
+      },
+      "after": {
+        "price": "499",
+        "comparePrice": "700"
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-ajur-triko-yelekli-tisort-beyaz",
+      "source": "quzu",
+      "name": "Ajur Triko Yelekli Tişört Beyaz",
+      "before": {
+        "price": "899",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "499",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-ajurlu-ikili-triko-ekru",
+      "source": "quzu",
+      "name": "Ajurlu İkili Triko Ekru",
+      "before": {
+        "price": "899",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "499",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-ajurlu-ikili-triko-mavi",
+      "source": "quzu",
+      "name": "Ajurlu İkili Triko Mavi",
+      "before": {
+        "price": "899",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "499",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-ajurlu-ikili-triko-pembe",
+      "source": "quzu",
+      "name": "Ajurlu İkili Triko Pembe",
+      "before": {
+        "price": "899",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "499",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-ajurlu-ikili-triko-siyah",
+      "source": "quzu",
+      "name": "Ajurlu İkili Triko Siyah",
+      "before": {
+        "price": "899",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "499",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-amour-baskili-kapusonlu-oversize-sweatshirt-bej",
+      "source": "quzu",
+      "name": "Amour Baskılı Kapüşonlu Oversize Sweatshirt Bej",
+      "before": {
+        "price": "1050",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "650",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-anvelop-baglamali-katli-mini-etek-kahverengi",
+      "source": "quzu",
+      "name": "Anvelop Bağlamalı Katlı Mini Etek Kahverengi",
+      "before": {
+        "price": "1050",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "650",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-anvelop-baglamali-katli-mini-etek-krem",
+      "source": "quzu",
+      "name": "Anvelop Bağlamalı Katlı Mini Etek Krem",
+      "before": {
+        "price": "1050",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "650",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-anvelop-detayli-pileli-mini-etek-acik-gri",
+      "source": "quzu",
+      "name": "Anvelop Detaylı Pileli Mini Etek Açık Gri",
+      "before": {
+        "price": "899",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "499",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-anvelop-yaka-bagcikli-tul-bluz-kahverengi",
+      "source": "quzu",
+      "name": "Anvelop Yaka Bağcıklı Tül Bluz Kahverengi",
+      "before": {
+        "price": "650",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "250",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-anvelop-yaka-bagcikli-tul-bluz-siyah",
+      "source": "quzu",
+      "name": "Anvelop Yaka Bağcıklı Tül Bluz Siyah",
+      "before": {
+        "price": "650",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "250",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-apoletli-gold-dugmeli-crop-ceket-antrasit",
+      "source": "quzu",
+      "name": "Apoletli Gold Düğmeli Crop Ceket Antrasit",
+      "before": {
+        "price": "900",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "500",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-apoletli-kruvaze-yaka-kisa-trenckot-bej",
+      "source": "quzu",
+      "name": "Apoletli Kruvaze Yaka Kısa Trençkot Bej",
+      "before": {
+        "price": "1050",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "650",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-apoletli-kruvaze-yaka-kisa-trenckot-haki",
+      "source": "quzu",
+      "name": "Apoletli Kruvaze Yaka Kısa Trençkot Haki",
+      "before": {
+        "price": "1255",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "855",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-arma-nakisli-gomlek-yaka-triko-kazak-bordo",
+      "source": "quzu",
+      "name": "Arma Nakışlı Gömlek Yaka Triko Kazak Bordo",
+      "before": {
+        "price": "899",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "499",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-arma-nakisli-gomlek-yaka-triko-kazak-lacivert",
+      "source": "quzu",
+      "name": "Arma Nakışlı Gömlek Yaka Triko Kazak Lacivert",
+      "before": {
+        "price": "899",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "499",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-asimetrik-bel-bantli-pileli-mini-etek-antrasit",
+      "source": "quzu",
+      "name": "Asimetrik Bel Bantlı Pileli Mini Etek Antrasit",
+      "before": {
+        "price": "560",
+        "comparePrice": "850"
+      },
+      "after": {
+        "price": "160",
+        "comparePrice": "450"
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-asimetrik-bel-detayli-cizgili-pantolon-bej",
+      "source": "quzu",
+      "name": "Asimetrik Bel Detaylı Çizgili Pantolon Bej",
+      "before": {
+        "price": "899",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "499",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-asimetrik-cep-ribanali-crop-gomlek-lacivert",
+      "source": "quzu",
+      "name": "Asimetrik Cep Ribanalı Crop Gömlek Lacivert",
+      "before": {
+        "price": "899",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "499",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-asimetrik-cift-katmanli-bluz-grimelanj",
+      "source": "quzu",
+      "name": "Asimetrik Çift Katmanlı Bluz Grimelanj",
+      "before": {
+        "price": "1300",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "900",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-asimetrik-desenli-tul-etek-haki",
+      "source": "quzu",
+      "name": "Asimetrik Desenli Tül Etek Haki",
+      "before": {
+        "price": "899",
+        "comparePrice": "1200"
+      },
+      "after": {
+        "price": "499",
+        "comparePrice": "800"
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-asimetrik-drapeli-ekose-midi-elbise-siyah",
+      "source": "quzu",
+      "name": "Asimetrik Drapeli Ekose Midi Elbise Siyah",
+      "before": {
+        "price": "550",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "150",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-asimetrik-drapeli-straplez-bluz-kahverengi",
+      "source": "quzu",
+      "name": "Asimetrik Drapeli Straplez Bluz Kahverengi",
+      "before": {
+        "price": "899",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "499",
+        "comparePrice": ""
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-asimetrik-dugmeli-drapeli-gomlek-ekru",
+      "source": "quzu",
+      "name": "Asimetrik Düğmeli Drapeli Gömlek Ekru",
+      "before": {
+        "price": "899",
+        "comparePrice": "1050"
+      },
+      "after": {
+        "price": "499",
+        "comparePrice": "650"
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-asimetrik-dugmeli-drapeli-gomlek-gri",
+      "source": "quzu",
+      "name": "Asimetrik Düğmeli Drapeli Gömlek Gri",
+      "before": {
+        "price": "899",
+        "comparePrice": "1050"
+      },
+      "after": {
+        "price": "499",
+        "comparePrice": "650"
+      },
+      "reason": "live-raw-exact"
+    },
+    {
+      "id": "quzu-asimetrik-fermuarli-triko-kazak-tas",
+      "source": "quzu",
+      "name": "Asimetrik Fermuarlı Triko Kazak Taş",
+      "before": {
+        "price": "899",
+        "comparePrice": "1200"
+      },
+      "after": {
+        "price": "499",
+        "comparePrice": "800"
+      },
+      "reason": "live-raw-exact"
+    }
+  ],
+  "fallbackDetails": [
+    {
+      "id": "vamosclo-oversize-sort-gomlek-takim-ekru-3245",
+      "source": "vamosclo",
+      "name": "Oversize Şort Gömlek Takım Ekru",
+      "category": "Takımlar",
+      "subcategory": "Eşofman Takımı",
+      "assignedPrice": "890",
+      "assignedComparePrice": ""
+    },
+    {
+      "id": "vamosclo-oversize-sort-gomlek-takim-kahve-3246",
+      "source": "vamosclo",
+      "name": "Oversize Şort Gömlek Takım Kahve",
+      "category": "Takımlar",
+      "subcategory": "Eşofman Takımı",
+      "assignedPrice": "890",
+      "assignedComparePrice": ""
+    },
+    {
+      "id": "vamosclo-oversize-havlu-kumas-gomlek-antrasit-11913",
+      "source": "vamosclo",
+      "name": "Oversize Havlu Kumaş Gömlek Antrasit",
+      "category": "Üst Giyim",
+      "subcategory": "Gömlek",
+      "assignedPrice": "690",
+      "assignedComparePrice": ""
+    },
+    {
+      "id": "vamosclo-oversize-havlu-kumas-gomlek-bej-11911",
+      "source": "vamosclo",
+      "name": "Oversize Havlu Kumaş Gömlek Bej",
+      "category": "Üst Giyim",
+      "subcategory": "Gömlek",
+      "assignedPrice": "690",
+      "assignedComparePrice": ""
+    },
+    {
+      "id": "vamosclo-oversize-havlu-kumas-gomlek-camel-11909",
+      "source": "vamosclo",
+      "name": "Oversize Havlu Kumaş Gömlek Camel",
+      "category": "Üst Giyim",
+      "subcategory": "Gömlek",
+      "assignedPrice": "690",
+      "assignedComparePrice": ""
+    },
+    {
+      "id": "vamosclo-oversize-havlu-kumas-gomlek-ekru-11908",
+      "source": "vamosclo",
+      "name": "Oversize Havlu Kumaş Gömlek Ekru",
+      "category": "Üst Giyim",
+      "subcategory": "Gömlek",
+      "assignedPrice": "690",
+      "assignedComparePrice": ""
+    },
+    {
+      "id": "vamosclo-oversize-havlu-kumas-gomlek-okyanus-11912",
+      "source": "vamosclo",
+      "name": "Oversize Havlu Kumaş Gömlek Okyanus",
+      "category": "Üst Giyim",
+      "subcategory": "Gömlek",
+      "assignedPrice": "690",
+      "assignedComparePrice": ""
+    },
+    {
+      "id": "vamosclo-oversize-havlu-kumas-gomlek-siyah-11910",
+      "source": "vamosclo",
+      "name": "Oversize Havlu Kumaş Gömlek Siyah",
+      "category": "Üst Giyim",
+      "subcategory": "Gömlek",
+      "assignedPrice": "690",
+      "assignedComparePrice": ""
+    },
+    {
+      "id": "vamosclo-oversize-havlu-kumas-gomlek-indigo-11907",
+      "source": "vamosclo",
+      "name": "Oversize Havlu Kumaş Gömlek İndigo",
+      "category": "Üst Giyim",
+      "subcategory": "Gömlek",
+      "assignedPrice": "690",
+      "assignedComparePrice": ""
+    }
+  ]
+}

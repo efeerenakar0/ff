@@ -1,0 +1,24 @@
+{
+  "imported": 1498,
+  "failures": [],
+  "sourceCards": 1498,
+  "categoryPaths": [
+    "/tr/c/kadin-ic-giyim",
+    "/tr/c/boxer",
+    "/tr/c/erkek-atlet"
+  ],
+  "imageLimit": 2,
+  "durationSeconds": 137,
+  "categoryCounts": {
+    "İç Giyim / Sütyen": 733,
+    "İç Giyim / Külot": 488,
+    "İç Giyim / Büstiyer": 4,
+    "İç Giyim / Atlet & Body": 79,
+    "İç Giyim / Korse": 25,
+    "İç Giyim / Babydoll & Bodysuit": 34,
+    "İç Giyim / Jartiyer": 13,
+    "İç Giyim / Kombinezon & Jüpon": 3,
+    "İç Giyim / Boxer": 95,
+    "İç Giyim / İç Giyim": 24
+  }
+}

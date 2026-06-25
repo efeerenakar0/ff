@@ -1,0 +1,28 @@
+{
+  "imported": 2939,
+  "failures": [],
+  "urls": 2939,
+  "sourceUrls": 2939,
+  "durationSeconds": 2690,
+  "categoryCounts": {
+    "Takımlar / Eşofman Takımı": 262,
+    "Takımlar / Takım Elbise": 67,
+    "Takımlar / Şort Takım": 29,
+    "Dış Giyim / Ceket": 25,
+    "Dış Giyim / Mont": 25,
+    "Dış Giyim / Kaban": 5,
+    "Üst Giyim / Gömlek": 548,
+    "Üst Giyim / T-Shirt": 29,
+    "Üst Giyim / Sweatshirt": 631,
+    "Üst Giyim / Ceket": 22,
+    "Üst Giyim / Triko | Kazak": 99,
+    "Alt Giyim / Pantolon": 199,
+    "Alt Giyim / Jeans": 114,
+    "Alt Giyim / Şort": 648,
+    "Alt Giyim / Eşofman Altı": 178,
+    "Alt Giyim / Kargo Pantolon": 10,
+    "Alt Giyim / Boxer": 8,
+    "Alt Giyim / Çorap": 32,
+    "Alt Giyim / Terlik": 8
+  }
+}

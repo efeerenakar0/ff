@@ -1,0 +1,299 @@
+{
+  "updatedAt": "2026-06-18T23:10:21.582Z",
+  "amountAdded": 1699,
+  "backupData": "data/.import-backups/site-data-before-dress-price-add-2026-06-18T23-10-21-582Z.json",
+  "backupPublic": "data/.import-backups/site-public-before-dress-price-add-2026-06-18T23-10-21-582Z.json",
+  "matched": 413,
+  "changed": 413,
+  "compareUpdated": 128,
+  "variantUpdated": 416,
+  "bySource": {
+    "quzu": 142,
+    "dilvin": 71,
+    "manuka": 81,
+    "lesbenjamins": 52,
+    "vamosclo": 67
+  },
+  "samples": [
+    {
+      "id": "quzu-asimetrik-drapeli-ekose-midi-elbise-siyah",
+      "name": "Asimetrik Drapeli Ekose Midi Elbise Siyah",
+      "category": "Üst Giyim",
+      "subcategory": "Elbise",
+      "before": {
+        "price": "550",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "2249",
+        "comparePrice": ""
+      }
+    },
+    {
+      "id": "quzu-asimetrik-puskullu-straplez-midi-elbise-siyah",
+      "name": "Asimetrik Püsküllü Straplez Midi Elbise Siyah",
+      "category": "Üst Giyim",
+      "subcategory": "Elbise",
+      "before": {
+        "price": "550",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "2249",
+        "comparePrice": ""
+      }
+    },
+    {
+      "id": "quzu-asimetrik-volanli-kolsuz-mini-elbise-siyah",
+      "name": "Asimetrik Volanlı Kolsuz Mini Elbise Siyah",
+      "category": "Üst Giyim",
+      "subcategory": "Elbise",
+      "before": {
+        "price": "975",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "2674",
+        "comparePrice": ""
+      }
+    },
+    {
+      "id": "quzu-asimetrik-yaka-tul-desenli-uzun-elbise-siyah",
+      "name": "Asimetrik Yaka Tül Desenli Uzun Elbise Siyah",
+      "category": "Üst Giyim",
+      "subcategory": "Elbise",
+      "before": {
+        "price": "1200",
+        "comparePrice": "1400"
+      },
+      "after": {
+        "price": "2899",
+        "comparePrice": "3099"
+      }
+    },
+    {
+      "id": "quzu-asimetrik-yaka-tul-midi-elbise-kahverengi",
+      "name": "Asimetrik Yaka Tül Midi Elbise Kahverengi",
+      "category": "Üst Giyim",
+      "subcategory": "Elbise",
+      "before": {
+        "price": "600",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "2299",
+        "comparePrice": ""
+      }
+    },
+    {
+      "id": "quzu-asimetrik-yaka-tul-midi-elbise-murdum",
+      "name": "Asimetrik Yaka Tül Midi Elbise Mürdüm",
+      "category": "Üst Giyim",
+      "subcategory": "Elbise",
+      "before": {
+        "price": "600",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "2299",
+        "comparePrice": ""
+      }
+    },
+    {
+      "id": "quzu-asimetrik-yaka-tul-midi-elbise-siyah",
+      "name": "Asimetrik Yaka Tül Midi Elbise Siyah",
+      "category": "Üst Giyim",
+      "subcategory": "Elbise",
+      "before": {
+        "price": "600",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "2299",
+        "comparePrice": ""
+      }
+    },
+    {
+      "id": "quzu-askili-on-baglamali-yirtmacli-midi-elbise-pembe",
+      "name": "Askılı Ön Bağlamalı Yırtmaçlı Midi Elbise Pembe",
+      "category": "Üst Giyim",
+      "subcategory": "Elbise",
+      "before": {
+        "price": "650",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "2349",
+        "comparePrice": ""
+      }
+    },
+    {
+      "id": "quzu-askili-uzun-elbise-siyah",
+      "name": "Askılı Uzun Elbise Siyah",
+      "category": "Üst Giyim",
+      "subcategory": "Elbise",
+      "before": {
+        "price": "600",
+        "comparePrice": "900"
+      },
+      "after": {
+        "price": "2299",
+        "comparePrice": "2599"
+      }
+    },
+    {
+      "id": "quzu-baglama-askili-uzun-elbise-siyah",
+      "name": "Bağlama Askılı Uzun Elbise Siyah",
+      "category": "Üst Giyim",
+      "subcategory": "Elbise",
+      "before": {
+        "price": "1300",
+        "comparePrice": "1400"
+      },
+      "after": {
+        "price": "2999",
+        "comparePrice": "3099"
+      }
+    },
+    {
+      "id": "quzu-balen-detayli-volanli-mini-elbise-pembe",
+      "name": "Balen Detaylı Volanlı Mini Elbise Pembe",
+      "category": "Üst Giyim",
+      "subcategory": "Elbise",
+      "before": {
+        "price": "600",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "2299",
+        "comparePrice": ""
+      }
+    },
+    {
+      "id": "quzu-balon-kol-fiyonk-baglamali-mini-elbise-kahverengi",
+      "name": "Balon Kol Fiyonk Bağlamalı Mini Elbise Kahverengi",
+      "category": "Üst Giyim",
+      "subcategory": "Elbise",
+      "before": {
+        "price": "1261",
+        "comparePrice": "1300"
+      },
+      "after": {
+        "price": "2960",
+        "comparePrice": "2999"
+      }
+    },
+    {
+      "id": "quzu-beli-bagcikli-v-yaka-midi-elbise-kahverengi",
+      "name": "Beli Bağcıklı V Yaka Midi Elbise Kahverengi",
+      "category": "Üst Giyim",
+      "subcategory": "Elbise",
+      "before": {
+        "price": "850",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "2549",
+        "comparePrice": ""
+      }
+    },
+    {
+      "id": "quzu-beli-bagcikli-v-yaka-midi-elbise-siyah",
+      "name": "Beli Bağcıklı V Yaka Midi Elbise Siyah",
+      "category": "Üst Giyim",
+      "subcategory": "Elbise",
+      "before": {
+        "price": "850",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "2549",
+        "comparePrice": ""
+      }
+    },
+    {
+      "id": "quzu-beli-kemer-detayli-leoparli-uzun-elbise-kahverengi",
+      "name": "Beli Kemer Detaylı Leoparlı Uzun Elbise Kahverengi",
+      "category": "Üst Giyim",
+      "subcategory": "Elbise",
+      "before": {
+        "price": "499",
+        "comparePrice": "850"
+      },
+      "after": {
+        "price": "2198",
+        "comparePrice": "2549"
+      }
+    },
+    {
+      "id": "quzu-beli-kemerli-desenli-uzun-elbise-kirmizi",
+      "name": "Beli Kemerli Desenli Uzun Elbise Kırmızı",
+      "category": "Üst Giyim",
+      "subcategory": "Elbise",
+      "before": {
+        "price": "499",
+        "comparePrice": "500"
+      },
+      "after": {
+        "price": "2198",
+        "comparePrice": "2199"
+      }
+    },
+    {
+      "id": "quzu-benek-desenli-tek-omuz-elbise-ekru",
+      "name": "Benek Desenli Tek Omuz Elbise Ekru",
+      "category": "Üst Giyim",
+      "subcategory": "Elbise",
+      "before": {
+        "price": "899",
+        "comparePrice": "1200"
+      },
+      "after": {
+        "price": "2598",
+        "comparePrice": "2899"
+      }
+    },
+    {
+      "id": "quzu-boncuk-aksesuarli-cizgili-midi-elbise-pembe",
+      "name": "Boncuk Aksesuarlı Çizgili Midi Elbise Pembe",
+      "category": "Üst Giyim",
+      "subcategory": "Elbise",
+      "before": {
+        "price": "200",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "1899",
+        "comparePrice": ""
+      }
+    },
+    {
+      "id": "quzu-boncuk-askili-gipeli-yirtmacli-keten-elbise-haki",
+      "name": "Boncuk Askılı Gipeli Yırtmaçlı Keten Elbise Haki",
+      "category": "Üst Giyim",
+      "subcategory": "Elbise",
+      "before": {
+        "price": "899",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "2598",
+        "comparePrice": ""
+      }
+    },
+    {
+      "id": "quzu-boyundan-baglamali-sal-desenli-uzun-elbise-pembe",
+      "name": "Boyundan Bağlamalı Şal Desenli Uzun Elbise Pembe",
+      "category": "Üst Giyim",
+      "subcategory": "Elbise",
+      "before": {
+        "price": "800",
+        "comparePrice": ""
+      },
+      "after": {
+        "price": "2499",
+        "comparePrice": ""
+      }
+    }
+  ]
+}

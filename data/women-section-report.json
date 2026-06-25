@@ -1,0 +1,52 @@
+{
+  "updatedAt": "2026-06-18T12:15:04.103Z",
+  "totals": {
+    "women": 9412,
+    "unisex": 7739,
+    "changed": 121,
+    "removedMaleOnly": 121,
+    "bySource": {
+      "quzu": {
+        "products": 1469,
+        "women": 1465,
+        "unisex": 1344
+      },
+      "dilvin": {
+        "products": 972,
+        "women": 971,
+        "unisex": 936
+      },
+      "manuka": {
+        "products": 1057,
+        "women": 1048,
+        "unisex": 1002
+      },
+      "penti": {
+        "products": 1498,
+        "women": 1394,
+        "unisex": 0
+      },
+      "lesbenjamins": {
+        "products": 2557,
+        "women": 1514,
+        "unisex": 1444
+      },
+      "vamosclo": {
+        "products": 2939,
+        "women": 2931,
+        "unisex": 2924
+      },
+      "lofibuy": {
+        "products": 99,
+        "women": 80,
+        "unisex": 80
+      },
+      "local": {
+        "products": 10,
+        "women": 9,
+        "unisex": 9
+      }
+    }
+  },
+  "rule": "Male-only products are excluded from Kadın unless explicitly Unisex."
+}

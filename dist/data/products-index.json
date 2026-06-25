@@ -1,0 +1,52 @@
+{
+  "version": "cloudflare-split-20260625",
+  "productCount": 10596,
+  "generatedAt": "2026-06-25T02:58:26.556Z",
+  "productChunks": [
+    {
+      "file": "products-1.json",
+      "count": 1287,
+      "bytes": 1997541
+    },
+    {
+      "file": "products-2.json",
+      "count": 1349,
+      "bytes": 1997441
+    },
+    {
+      "file": "products-3.json",
+      "count": 1422,
+      "bytes": 1997627
+    },
+    {
+      "file": "products-4.json",
+      "count": 1391,
+      "bytes": 1998152
+    },
+    {
+      "file": "products-5.json",
+      "count": 1337,
+      "bytes": 1997554
+    },
+    {
+      "file": "products-6.json",
+      "count": 1373,
+      "bytes": 1998586
+    },
+    {
+      "file": "products-7.json",
+      "count": 1177,
+      "bytes": 1998172
+    },
+    {
+      "file": "products-8.json",
+      "count": 1194,
+      "bytes": 1997924
+    },
+    {
+      "file": "products-9.json",
+      "count": 66,
+      "bytes": 103241
+    }
+  ]
+}

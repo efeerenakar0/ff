@@ -1,0 +1,9 @@
+{
+  "restoredAt": "2026-06-18T04:05:04.397Z",
+  "reason": "User clarified prices should be increased, not reduced to live source prices.",
+  "restoredFrom": {
+    "siteData": "data/.import-backups/site-data-before-live-price-sync-2026-06-18T03-21-07-856Z.json",
+    "sitePublic": "data/.import-backups/site-public-before-live-price-sync-2026-06-18T03-21-07-856Z.json"
+  },
+  "importPriceMarkup": 400
+}

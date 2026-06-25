@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>http://localhost:4174/</loc><priority>1.0</priority></url>
+  <url><loc>http://localhost:4174/products.html</loc><priority>0.9</priority></url>
+  <url><loc>http://localhost:4174/collection.html</loc><priority>0.8</priority></url>
+  <url><loc>http://localhost:4174/kadin</loc><priority>0.8</priority></url>
+  <url><loc>http://localhost:4174/kadin-ust-giyim</loc><priority>0.7</priority></url>
+  <url><loc>http://localhost:4174/kadin-alt-giyim</loc><priority>0.7</priority></url>
+  <url><loc>http://localhost:4174/kadin-dis-giyim</loc><priority>0.7</priority></url>
+  <url><loc>http://localhost:4174/kadin-unisex</loc><priority>0.7</priority></url>
+  <url><loc>http://localhost:4174/lookbook.html</loc><priority>0.7</priority></url>
+  <url><loc>http://localhost:4174/about.html</loc><priority>0.6</priority></url>
+  <url><loc>http://localhost:4174/faq.html</loc><priority>0.5</priority></url>
+  <url><loc>http://localhost:4174/shipping.html</loc><priority>0.5</priority></url>
+  <url><loc>http://localhost:4174/returns.html</loc><priority>0.5</priority></url>
+  <url><loc>http://localhost:4174/privacy.html</loc><priority>0.4</priority></url>
+  <url><loc>http://localhost:4174/terms.html</loc><priority>0.4</priority></url>
+</urlset>

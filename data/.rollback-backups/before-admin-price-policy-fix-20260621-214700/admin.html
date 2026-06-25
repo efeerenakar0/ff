@@ -1,0 +1,747 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Admin Paneli | Threon</title>
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="styles.css?v=threon-category-fix-4-20260621" />
+  </head>
+  <body data-page="admin">
+    <main class="admin-shell">
+      <section class="admin-login" data-admin-login>
+        <div class="login-card">
+          <a class="brand brand-dark" href="index.html" aria-label="Threon ana sayfa">
+            <span class="brand-mark" aria-hidden="true">T</span>
+            <span>Threon</span>
+          </a>
+          <div>
+            <p class="eyebrow">Yönetim Paneli</p>
+            <h1>Mağazayı ve ürün kataloğunu yönetin.</h1>
+            <p>Giriş bilgileri: kullanıcı adı <strong>admin</strong>, şifre <strong>admin1</strong>.</p>
+          </div>
+          <form class="admin-login-form" data-login-form>
+            <label>
+              <span>Kullanıcı adı</span>
+              <input name="username" autocomplete="username" value="admin" required />
+            </label>
+            <label>
+              <span>Şifre</span>
+              <input name="password" type="password" autocomplete="current-password" value="admin1" required />
+            </label>
+            <button class="button button-primary" type="submit">Panele gir</button>
+            <p class="form-status" data-login-status role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="admin-dashboard is-hidden" data-admin-dashboard>
+        <aside class="admin-sidebar">
+          <a class="brand brand-dark" href="index.html">
+            <span class="brand-mark" aria-hidden="true">T</span>
+            <span>Threon</span>
+          </a>
+          <nav class="admin-nav" aria-label="Panel bölümleri">
+            <a href="#overview">Genel Bakış</a>
+            <a href="#products">Ürünler</a>
+            <a href="#orders">Siparişler</a>
+            <a href="#customers">Üyeler</a>
+            <a href="#reviews">Yorumlar</a>
+            <a href="#visuals">Vitrin Görselleri</a>
+            <a href="#home-sections">Ana Sayfa Sırası</a>
+            <a href="#shelves">Canlı Raflar</a>
+            <a href="#campaigns">Kampanyalar</a>
+            <a href="#settings">Site Ayarları</a>
+            <a href="#messages">Mesajlar</a>
+            <a href="index.html">Siteye Dön</a>
+          </nav>
+          <button class="button button-secondary-dark" type="button" data-logout>Çıkış yap</button>
+        </aside>
+
+        <div class="admin-content">
+          <header class="admin-topbar">
+            <div>
+              <p class="eyebrow">Threon Admin</p>
+              <h1>Yönetim merkezi</h1>
+            </div>
+            <div class="admin-actions">
+              <button class="button button-secondary-dark" type="button" data-export-json>JSON dışarı aktar</button>
+              <a class="button button-primary" href="products.html">Katalogu gör</a>
+            </div>
+          </header>
+
+          <section class="admin-panel" id="overview">
+            <div class="admin-panel-heading">
+              <div>
+                <p class="eyebrow">Genel Bakış</p>
+                <h2>Canlı site özeti</h2>
+              </div>
+              <span class="status-pill" data-admin-status>Bağlanıyor</span>
+            </div>
+            <div class="admin-stat-grid" data-admin-stats></div>
+            <div class="admin-insight-grid" data-admin-insights></div>
+          </section>
+
+          <section class="admin-panel" id="products">
+            <div class="admin-panel-heading">
+              <div>
+                <p class="eyebrow">Ürünler</p>
+                <h2>Giyim kataloğu yönetimi</h2>
+              </div>
+              <button class="button button-primary" type="button" data-new-product>Yeni ürün</button>
+            </div>
+
+            <div class="admin-two-column">
+              <form class="admin-form" data-product-form>
+                <input type="hidden" name="id" />
+                <div class="form-grid">
+                  <label>
+                    <span>Ürün adı</span>
+                    <input name="name" required />
+                  </label>
+                  <label>
+                    <span>Slug</span>
+                    <input name="slug" placeholder="otomatik-olusturulur" />
+                  </label>
+                  <label>
+                    <span>Kategori</span>
+                    <input name="category" list="category-list" required />
+                    <datalist id="category-list" data-category-list></datalist>
+                  </label>
+                  <label>
+                    <span>Alt kategori</span>
+                    <input name="subcategory" list="subcategory-list" placeholder="Örn. Kaban, Gömlek, Yelek" />
+                    <datalist id="subcategory-list" data-subcategory-list></datalist>
+                  </label>
+                  <label>
+                    <span>Fiyat</span>
+                    <input name="price" inputmode="decimal" required />
+                  </label>
+                  <label>
+                    <span>Eski fiyat</span>
+                    <input name="comparePrice" inputmode="decimal" placeholder="İndirim yoksa boş bırak" />
+                  </label>
+                  <label>
+                    <span>Para birimi</span>
+                    <select name="currency">
+                      <option value="TRY">TRY</option>
+                      <option value="USD">USD</option>
+                      <option value="EUR">EUR</option>
+                    </select>
+                  </label>
+                  <label>
+                    <span>Stok</span>
+                    <input name="stock" type="number" min="0" required />
+                  </label>
+                  <label>
+                    <span>Durum</span>
+                    <select name="status">
+                      <option value="active">Yayında</option>
+                      <option value="draft">Taslak</option>
+                    </select>
+                  </label>
+                  <label>
+                    <span>Rozet</span>
+                    <input name="badge" placeholder="Yeni, Premium..." />
+                  </label>
+                  <label>
+                    <span>SKU</span>
+                    <input name="sku" placeholder="THR-HDY-BLK" />
+                  </label>
+                </div>
+
+                <label>
+                  <span>Görsel yolu veya URL</span>
+                  <input name="image" placeholder="assets/product-hoodie.png" />
+                </label>
+                <label>
+                  <span>Yüksek çözünürlüklü görsel yükle</span>
+                  <input name="imageUpload" type="file" accept="image/*" data-product-image-upload />
+                </label>
+                <label>
+                  <span>Galeri görselleri (virgülle ayır)</span>
+                  <input name="gallery" placeholder="assets/product-hoodie.png, assets/threon-fashion-hero.png" />
+                </label>
+                <div class="form-grid">
+                  <label>
+                    <span>Ürün görsel oranı</span>
+                    <select name="imageRatio">
+                      <option value="portrait">Dikey ürün kartı</option>
+                      <option value="square">Kare</option>
+                      <option value="landscape">Yatay</option>
+                      <option value="wide">Geniş yatay</option>
+                    </select>
+                  </label>
+                  <label>
+                    <span>Ürün görsel kırpma</span>
+                    <select name="imageFit">
+                      <option value="cover">Kırp / alanı doldur</option>
+                      <option value="contain">Tamamını göster</option>
+                    </select>
+                  </label>
+                  <label>
+                    <span>Odak noktası</span>
+                    <input name="imagePosition" placeholder="center center veya 50% 20%" />
+                  </label>
+                </div>
+                <div class="form-grid">
+                  <label>
+                    <span>Bedenler (virgülle ayır)</span>
+                    <input name="sizes" placeholder="XS, S, M, L, XL" />
+                  </label>
+                  <label>
+                    <span>Renkler (virgülle ayır)</span>
+                    <input name="colors" placeholder="Siyah, Krem, Zeytin" />
+                  </label>
+                </div>
+                <div class="form-grid">
+                  <label>
+                    <span>Koleksiyon</span>
+                    <input name="collection" placeholder="Kış Kapsülü" />
+                  </label>
+                  <label>
+                    <span>Fit bilgisi</span>
+                    <input name="fit" placeholder="Bol kesim / düşük omuz" />
+                  </label>
+                </div>
+                <div class="form-grid">
+                  <label>
+                    <span>Model notu</span>
+                    <input name="modelInfo" placeholder="Model 184 cm, L beden giyiyor." />
+                  </label>
+                  <label>
+                    <span>Kargo notu</span>
+                    <input name="shippingNote" placeholder="24 saat içinde paketlenir." />
+                  </label>
+                </div>
+                <div class="form-grid">
+                  <label>
+                    <span>Materyal</span>
+                    <input name="material" placeholder="Pamuk ağırlıklı kumaş" />
+                  </label>
+                  <label>
+                    <span>Bakım</span>
+                    <input name="care" placeholder="30 derecede yıkayın" />
+                  </label>
+                </div>
+                <label>
+                  <span>Kısa açıklama</span>
+                  <textarea name="summary" rows="3" required></textarea>
+                </label>
+                <label>
+                  <span>Uzun açıklama</span>
+                  <textarea name="description" rows="5" required></textarea>
+                </label>
+                <label>
+                  <span>Özellikler (her satıra bir madde)</span>
+                  <textarea name="features" rows="5"></textarea>
+                </label>
+                <label>
+                  <span>Ürün detayları (Anahtar: Değer)</span>
+                  <textarea name="specs" rows="5" placeholder="Kumaş: 420 GSM"></textarea>
+                </label>
+                <label>
+                  <span>Varyant stokları (Beden | Renk | Stok | SKU | Görsel)</span>
+                  <textarea name="variants" rows="5" placeholder="M | Siyah | 4 | THR-HDY-M-BLK | assets/product-hoodie.png"></textarea>
+                </label>
+                <div class="admin-variant-table" data-variant-stock-table></div>
+                <label class="check-field">
+                  <input name="featured" type="checkbox" />
+                  <span>Ana sayfada öne çıkar</span>
+                </label>
+                <div class="form-actions">
+                  <button class="button button-primary" type="submit">Ürünü kaydet</button>
+                  <button class="button button-secondary-dark" type="button" data-reset-product>Temizle</button>
+                </div>
+                <p class="form-status" data-product-status role="status" aria-live="polite"></p>
+              </form>
+
+              <div class="admin-list-panel">
+                <div class="admin-preview-card" data-admin-product-preview>
+                  <span>Ürün önizleme</span>
+                  <strong>Formu doldurdukça burada görünür.</strong>
+                </div>
+                <div class="admin-list-tools">
+                  <input type="search" placeholder="Ürün ara" data-admin-product-search />
+                  <select data-admin-status-filter>
+                    <option value="all">Tüm durumlar</option>
+                    <option value="active">Yayında</option>
+                    <option value="draft">Taslak</option>
+                  </select>
+                </div>
+                <div class="admin-product-list" data-admin-product-list></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="admin-panel" id="orders">
+            <div class="admin-panel-heading">
+              <div>
+                <p class="eyebrow">Siparişler</p>
+                <h2>Canlı sipariş merkezi</h2>
+              </div>
+              <a class="button button-secondary-dark" href="checkout.html">Ödeme sayfasını gör</a>
+            </div>
+            <div class="admin-order-list" data-admin-orders></div>
+          </section>
+
+          <section class="admin-panel" id="customers">
+            <div class="admin-panel-heading">
+              <div>
+                <p class="eyebrow">Üyeler</p>
+                <h2>Müşteri hesapları</h2>
+              </div>
+              <a class="button button-secondary-dark" href="account.html">Hesap sayfasını gör</a>
+            </div>
+            <div class="admin-customer-list" data-admin-customers></div>
+          </section>
+
+          <section class="admin-panel" id="reviews">
+            <div class="admin-panel-heading">
+              <div>
+                <p class="eyebrow">Yorumlar</p>
+                <h2>Ürün yorumu moderasyonu</h2>
+              </div>
+              <a class="button button-secondary-dark" href="products.html">Ürünleri gör</a>
+            </div>
+            <div class="message-list" data-admin-reviews></div>
+          </section>
+
+          <section class="admin-panel" id="campaigns">
+            <div class="admin-panel-heading">
+              <div>
+                <p class="eyebrow">Kampanya Merkezi</p>
+                <h2>Kupon, indirim ve limitli drop yönetimi</h2>
+              </div>
+              <button class="button button-primary" type="button" data-new-coupon>Yeni kupon</button>
+            </div>
+
+            <div class="admin-two-column">
+              <form class="admin-form" data-coupon-form>
+                <input type="hidden" name="id" />
+                <div class="form-grid">
+                  <label>
+                    <span>Kupon kodu</span>
+                    <input name="code" placeholder="THREON10" required />
+                  </label>
+                  <label>
+                    <span>Kupon etiketi</span>
+                    <input name="label" placeholder="Yeni sezon indirimi" />
+                  </label>
+                  <label>
+                    <span>Durum</span>
+                    <select name="status">
+                      <option value="active">Aktif</option>
+                      <option value="draft">Pasif</option>
+                    </select>
+                  </label>
+                  <label>
+                    <span>Tip</span>
+                    <select name="type">
+                      <option value="percent">Yüzde indirim</option>
+                      <option value="fixed">TL indirim</option>
+                      <option value="shipping">Ücretsiz kargo</option>
+                    </select>
+                  </label>
+                  <label>
+                    <span>Değer</span>
+                    <input name="value" type="number" min="0" step="1" value="10" />
+                  </label>
+                  <label>
+                    <span>Minimum sepet</span>
+                    <input name="minSubtotal" type="number" min="0" step="1" value="0" />
+                  </label>
+                  <label>
+                    <span>Maksimum indirim</span>
+                    <input name="maxDiscount" type="number" min="0" step="1" placeholder="Opsiyonel" />
+                  </label>
+                  <label>
+                    <span>Başlangıç</span>
+                    <input name="startsAt" type="datetime-local" />
+                  </label>
+                  <label>
+                    <span>Bitiş</span>
+                    <input name="endsAt" type="datetime-local" />
+                  </label>
+                </div>
+                <label>
+                  <span>Not</span>
+                  <textarea name="note" rows="3" placeholder="Kampanya notu"></textarea>
+                </label>
+                <div class="form-actions">
+                  <button class="button button-primary" type="submit">Kuponu kaydet</button>
+                  <button class="button button-secondary-dark" type="button" data-reset-coupon>Temizle</button>
+                </div>
+                <p class="form-status" data-coupon-status role="status" aria-live="polite"></p>
+              </form>
+
+              <div class="admin-list-panel">
+                <div class="admin-preview-card" data-admin-coupon-preview>
+                  <span>Kupon önizleme</span>
+                  <strong>Aktif kampanyalar burada düzenlenir.</strong>
+                </div>
+                <div class="admin-coupon-list" data-admin-coupon-list></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="admin-panel" id="settings">
+            <div class="admin-panel-heading">
+              <div>
+                <p class="eyebrow">Site Ayarları</p>
+                <h2>Marka, SEO ve takip ayarları</h2>
+              </div>
+            </div>
+            <form class="admin-form" data-settings-form>
+              <div class="form-grid">
+                <label>
+                  <span>Marka adı</span>
+                  <input name="brandName" required />
+                </label>
+                <label>
+                  <span>Kısa slogan</span>
+                  <input name="tagline" required />
+                </label>
+                <label>
+                  <span>Hero başlık</span>
+                  <input name="heroTitle" required />
+                </label>
+                <label>
+                  <span>Duyuru</span>
+                  <input name="announcement" />
+                </label>
+                <label>
+                  <span>E-posta</span>
+                  <input name="contactEmail" type="email" required />
+                </label>
+                <label>
+                  <span>Telefon</span>
+                  <input name="phone" required />
+                </label>
+              </div>
+              <label>
+                <span>Adres</span>
+                <input name="address" required />
+              </label>
+              <label>
+                <span>Hero görseli</span>
+                <input name="heroImage" required />
+              </label>
+              <label>
+                <span>Hero açıklama</span>
+                <textarea name="heroSubtitle" rows="4" required></textarea>
+              </label>
+              <div class="admin-form-section">
+                <p class="eyebrow">SEO</p>
+                <div class="form-grid">
+                  <label>
+                    <span>Site adresi</span>
+                    <input name="siteUrl" placeholder="https://threon.com.tr" />
+                  </label>
+                  <label>
+                    <span>Varsayılan başlık</span>
+                    <input name="defaultTitle" placeholder="THREON Premium Giyim" />
+                  </label>
+                </div>
+                <label>
+                  <span>Varsayılan açıklama</span>
+                  <textarea name="defaultDescription" rows="3" placeholder="Google sonuçlarında görünecek kısa açıklama"></textarea>
+                </label>
+                <label class="check-field">
+                  <input name="sitemapEnabled" type="checkbox" checked />
+                  <span>Otomatik sitemap açık</span>
+                </label>
+              </div>
+              <div class="admin-form-section">
+                <p class="eyebrow">Takip ve dönüşüm</p>
+                <div class="form-grid">
+                  <label>
+                    <span>Google Analytics ID</span>
+                    <input name="googleAnalyticsId" placeholder="G-XXXXXXXXXX" />
+                  </label>
+                  <label>
+                    <span>Meta Pixel ID</span>
+                    <input name="metaPixelId" placeholder="1234567890" />
+                  </label>
+                  <label>
+                    <span>Dönüşüm etiketi</span>
+                    <input name="conversionLabel" placeholder="Opsiyonel" />
+                  </label>
+                </div>
+                <label class="check-field">
+                  <input name="analyticsEnabled" type="checkbox" />
+                  <span>Takip kodlarını yayında çalıştır</span>
+                </label>
+              </div>
+              <div class="admin-form-section">
+                <p class="eyebrow">Limitli drop</p>
+                <div class="form-grid">
+                  <label>
+                    <span>Drop başlığı</span>
+                    <input name="dropTitle" placeholder="Limitli Drop" />
+                  </label>
+                  <label>
+                    <span>Bağlı ürün slug/id</span>
+                    <input name="dropProductSlug" list="visual-product-list" placeholder="Ürün slug" />
+                  </label>
+                  <label>
+                    <span>Bitiş zamanı</span>
+                    <input name="dropEndsAt" type="datetime-local" />
+                  </label>
+                </div>
+                <label class="check-field">
+                  <input name="dropEnabled" type="checkbox" />
+                  <span>Limitli drop sayacını göster</span>
+                </label>
+              </div>
+              <button class="button button-primary" type="submit">Ayarları kaydet</button>
+              <p class="form-status" data-settings-status role="status" aria-live="polite"></p>
+            </form>
+          </section>
+
+          <section class="admin-panel" id="visuals">
+            <div class="admin-panel-heading">
+              <div>
+                <p class="eyebrow">Vitrin Görselleri</p>
+                <h2>Ana sayfa, lookbook ve sayfa görselleri</h2>
+              </div>
+              <button class="button button-primary" type="button" data-new-visual>Yeni görsel</button>
+            </div>
+
+            <div class="admin-two-column">
+              <form class="admin-form" data-visual-form>
+                <input type="hidden" name="id" />
+                <div class="form-grid">
+                  <label>
+                    <span>Görsel alanı</span>
+                    <select name="placement" data-visual-placement-select></select>
+                  </label>
+                  <label>
+                    <span>Durum</span>
+                    <select name="status">
+                      <option value="active">Yayında</option>
+                      <option value="draft">Taslak</option>
+                    </select>
+                  </label>
+                  <label>
+                    <span>Başlık</span>
+                    <input name="title" placeholder="Örn. Kış Kapsülü" />
+                  </label>
+                  <label>
+                    <span>Üst etiket</span>
+                    <input name="kicker" placeholder="Örn. Yeni sezon" />
+                  </label>
+                  <label>
+                    <span>Bağlı ürün slug/id</span>
+                    <input name="productSlug" list="visual-product-list" data-visual-product-input placeholder="Ürün adı, slug veya id yaz" />
+                    <datalist id="visual-product-list" data-visual-product-list></datalist>
+                  </label>
+                  <label>
+                    <span>Alternatif link</span>
+                    <input name="href" placeholder="/urun/ornek-urun veya /koleksiyon" />
+                  </label>
+                  <label>
+                    <span>Tema</span>
+                    <select name="theme">
+                      <option value="editorial">Editoryal açık</option>
+                      <option value="dark">Premium koyu</option>
+                      <option value="minimal">Minimal</option>
+                    </select>
+                  </label>
+                  <label>
+                    <span>Kart oranı</span>
+                    <select name="shape">
+                      <option value="square">Kare</option>
+                      <option value="portrait">Dikey dikdörtgen</option>
+                      <option value="landscape">Yatay dikdörtgen</option>
+                      <option value="wide">Geniş dikdörtgen</option>
+                    </select>
+                  </label>
+                  <label>
+                    <span>Görsel kırpma</span>
+                    <select name="crop">
+                      <option value="cover">Kırp / alanı doldur</option>
+                      <option value="contain">Tamamını göster</option>
+                    </select>
+                  </label>
+                  <label>
+                    <span>Odak noktası</span>
+                    <input name="objectPosition" placeholder="center center veya 50% 20%" />
+                  </label>
+                  <label>
+                    <span>Sıralama</span>
+                    <input name="sortOrder" type="number" value="10" />
+                  </label>
+                </div>
+                <label>
+                  <span>Görsel yolu veya URL</span>
+                  <input name="image" placeholder="assets/threon-fashion-hero.png" />
+                </label>
+                <label>
+                  <span>Yüksek çözünürlüklü görsel yükle</span>
+                  <input name="imageUpload" type="file" accept="image/*" data-visual-image-upload />
+                </label>
+                <label>
+                  <span>Açıklama</span>
+                  <textarea name="subtitle" rows="4" placeholder="Bu görselin altında görünecek kısa metin"></textarea>
+                </label>
+                <div class="form-grid">
+                  <label>
+                    <span>Buton yazısı</span>
+                    <input name="cta" placeholder="Ürünü incele" />
+                  </label>
+                  <label class="check-field">
+                    <input name="showText" type="checkbox" checked />
+                    <span>Görsel üstünde yazı göster</span>
+                  </label>
+                </div>
+                <div class="form-actions">
+                  <button class="button button-primary" type="submit">Görseli kaydet</button>
+                  <button class="button button-secondary-dark" type="button" data-reset-visual>Temizle</button>
+                </div>
+                <p class="form-status" data-visual-status role="status" aria-live="polite"></p>
+              </form>
+
+              <div class="admin-list-panel">
+                <div class="admin-preview-card" data-admin-visual-preview>
+                  <span>Vitrin önizleme</span>
+                  <strong>Bir görsel seçildiğinde burada görünür.</strong>
+                </div>
+                <div class="admin-list-tools">
+                  <input type="search" placeholder="Vitrin görseli ara" data-visual-search />
+                  <select data-visual-placement-filter>
+                    <option value="all">Tüm vitrin alanları</option>
+                  </select>
+                </div>
+                <div class="admin-visual-list" data-admin-visual-list></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="admin-panel" id="home-sections">
+            <div class="admin-panel-heading">
+              <div>
+                <p class="eyebrow">Ana Sayfa Sırası</p>
+                <h2>Hero, ürün rafları ve içerik bloklarını sırala</h2>
+              </div>
+              <a class="button button-secondary-dark" href="index.html">Ana sayfayı gör</a>
+            </div>
+            <div class="admin-list-panel">
+              <div class="admin-preview-card">
+                <span>Sürükle-bırak sıralama</span>
+                <strong>Blokları yukarı-aşağı taşı veya gizle.</strong>
+              </div>
+              <div class="admin-shelf-list" data-admin-home-section-list></div>
+            </div>
+          </section>
+
+          <section class="admin-panel" id="shelves">
+            <div class="admin-panel-heading">
+              <div>
+                <p class="eyebrow">Canlı Raflar</p>
+                <h2>Ana sayfa katalog blokları</h2>
+              </div>
+              <button class="button button-primary" type="button" data-new-shelf>Yeni raf</button>
+            </div>
+
+            <div class="admin-two-column">
+              <form class="admin-form" data-shelf-form>
+                <input type="hidden" name="id" />
+                <div class="form-grid">
+                  <label>
+                    <span>Raf başlığı</span>
+                    <input name="title" placeholder="Yeni Gelenler" required />
+                  </label>
+                  <label>
+                    <span>Üst etiket</span>
+                    <input name="label" placeholder="Katalog" />
+                  </label>
+                  <label>
+                    <span>Durum</span>
+                    <select name="status">
+                      <option value="active">Yayında</option>
+                      <option value="draft">Taslak</option>
+                    </select>
+                  </label>
+                  <label>
+                    <span>Raf tipi</span>
+                    <select name="mode">
+                      <option value="manual">Manuel ürün seçimi</option>
+                      <option value="newest">Yeni gelenler</option>
+                      <option value="featured">Öne çıkan ürünler</option>
+                      <option value="lowStock">Limitli stok</option>
+                      <option value="category">Kategori seçimi</option>
+                      <option value="sale">İndirimli ürünler</option>
+                    </select>
+                  </label>
+                  <label>
+                    <span>Ürün limiti</span>
+                    <input name="limit" type="number" min="1" max="12" value="4" />
+                  </label>
+                  <label>
+                    <span>Sıralama</span>
+                    <input name="sortOrder" type="number" value="10" />
+                  </label>
+                  <label>
+                    <span>Kategori</span>
+                    <input name="category" list="category-list" placeholder="Örn. Dış Giyim" />
+                  </label>
+                  <label>
+                    <span>Alt kategori</span>
+                    <input name="subcategory" list="subcategory-list" placeholder="Örn. Ceket" />
+                  </label>
+                </div>
+                <label>
+                  <span>Manuel ürünler (her satıra slug/id)</span>
+                  <textarea name="productSlugs" rows="6" placeholder="basic-oversize-takim-bej&#10;oversize-kruvaze-kaban-antrasit"></textarea>
+                </label>
+                <div class="form-actions">
+                  <button class="button button-primary" type="submit">Rafı kaydet</button>
+                  <button class="button button-secondary-dark" type="button" data-reset-shelf>Temizle</button>
+                </div>
+                <p class="form-status" data-shelf-status role="status" aria-live="polite"></p>
+              </form>
+
+              <div class="admin-list-panel">
+                <div class="admin-preview-card" data-admin-shelf-preview>
+                  <span>Raf önizleme</span>
+                  <strong>Bir raf seçildiğinde burada görünür.</strong>
+                </div>
+                <div class="admin-shelf-list" data-admin-shelf-list></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="admin-panel" id="messages">
+            <div class="admin-panel-heading">
+              <div>
+                <p class="eyebrow">Gelen Kutusu</p>
+                <h2>İletişim mesajları</h2>
+              </div>
+            </div>
+            <div class="message-list" data-message-list></div>
+          </section>
+
+          <section class="admin-panel">
+            <div class="admin-panel-heading">
+              <div>
+                <p class="eyebrow">Veri</p>
+                <h2>İçe aktar</h2>
+              </div>
+            </div>
+            <form class="admin-form" data-import-form>
+              <label>
+                <span>JSON verisi</span>
+                <textarea name="json" rows="7" placeholder="{ &quot;products&quot;: [...] }"></textarea>
+              </label>
+              <button class="button button-secondary-dark" type="submit">JSON içe aktar</button>
+              <p class="form-status" data-import-status role="status" aria-live="polite"></p>
+            </form>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js?v=threon-category-fix-4-20260621"></script>
+  </body>
+</html>

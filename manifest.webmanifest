@@ -1,0 +1,17 @@
+{
+  "name": "THREON Premium Giyim",
+  "short_name": "THREON",
+  "description": "THREON premium giyim mağazası, kapsül koleksiyonlar ve güvenli e-ticaret deneyimi.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#111111",
+  "icons": [
+    {
+      "src": "assets/threon-fashion-hero.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

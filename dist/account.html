@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <base href="/" />
+    <title>Hesabım | Threon</title>
+    <meta name="description" content="THREON üye hesabı, sipariş geçmişi ve premium alışveriş takibi." />
+    <link rel="stylesheet" href="styles.css?v=threon-cloudflare-split-20260625" />
+  </head>
+  <body data-page="account">
+    <div class="announcement" data-announcement>THREE GIFT CARD | YENİ SEZON | 1500 TL+ ÜCRETSİZ KARGO</div>
+    <header class="site-header site-header--solid" data-header>
+      <a class="brand" href="index.html" aria-label="Threon ana sayfa">
+        <span class="brand-mark" aria-hidden="true">T</span>
+        <span data-brand-name>Threon</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+        <span class="sr-only">Menüyü aç</span>
+      </button>
+      <nav class="site-nav" id="site-nav" data-nav></nav>
+    </header>
+
+    <main class="page-main account-page">
+      <section class="account-hero">
+        <div>
+          <p class="eyebrow">THREON hesap merkezi</p>
+          <h1>Üyelik, sipariş takibi ve hızlı ödeme tek yerde.</h1>
+          <p>THREON'da sipariş vermek için hesap gerekir. Böylece adreslerin, favorilerin, takip kodların ve geçmiş siparişlerin tek güvenli panelde kalır.</p>
+        </div>
+        <div class="account-hero__panel">
+          <span>Güvenli üyelik</span>
+          <strong>Hızlı ödeme, sipariş geçmişi ve üyelere özel kapsül deneyimi.</strong>
+        </div>
+      </section>
+
+      <div class="visual-slot" data-visual-slot="account-after-hero"></div>
+
+      <section class="support-section account-service-grid">
+        <article class="support-card">
+          <span>01</span>
+          <h2>Hızlı ödeme</h2>
+          <p>Adres ve iletişim bilgilerin ödeme ekranında otomatik kullanılır.</p>
+        </article>
+        <article class="support-card">
+          <span>02</span>
+          <h2>Sipariş takibi</h2>
+          <p>Kargo kodu, sipariş durumu ve geçmiş alışverişlerin hesabında görünür.</p>
+        </article>
+        <article class="support-card support-card--dark">
+          <span>03</span>
+          <h2>Üye güvenliği</h2>
+          <p>Üyelik bilgilerin güvenli oturum mantığıyla korunur.</p>
+        </article>
+      </section>
+
+      <section class="account-auth" data-account-auth>
+        <article class="account-card">
+          <span>01</span>
+          <h2>Giriş yap</h2>
+          <p class="account-card__intro">Daha önce hesap açtıysan e-posta ve şifrenle giriş yap. Hatalı bilgi girildiğinde sistem seni net şekilde uyarır.</p>
+          <form data-auth-form="login">
+            <label><span>E-posta</span><input name="email" type="email" autocomplete="email" required /></label>
+            <label><span>Şifre</span><input name="password" type="password" autocomplete="current-password" required /></label>
+            <button class="button button-primary" type="submit">Hesabıma gir</button>
+          </form>
+        </article>
+
+        <article class="account-card account-card--dark">
+          <span>02</span>
+          <h2>Yeni hesap aç</h2>
+          <p class="account-card__intro">Hesabını oluştur, siparişlerini ve favorilerini tek yerden takip et.</p>
+          <form data-auth-form="register">
+            <label><span>Ad soyad</span><input name="name" autocomplete="name" required /></label>
+            <label><span>E-posta</span><input name="email" type="email" autocomplete="email" placeholder="ornek@domain.com" required /></label>
+            <label><span>Telefon</span><input name="phone" autocomplete="tel" inputmode="tel" placeholder="+90 5XXXXXXXXX" pattern="^\+90 5[0-9]{9}$" value="+90 5" required /></label>
+            <div class="otp-row">
+              <label><span>SMS OTP</span><input name="otpCode" inputmode="numeric" maxlength="6" placeholder="6 haneli kod" required /></label>
+              <button class="button button-secondary-dark" type="button" data-send-otp>OTP gönder</button>
+            </div>
+            <label><span>Şifre</span><input name="password" type="password" autocomplete="new-password" minlength="6" required /></label>
+            <button class="button button-light" type="submit">Üye ol</button>
+          </form>
+        </article>
+        <p class="form-status account-status" data-account-status role="status" aria-live="polite"></p>
+      </section>
+
+      <section class="account-dashboard is-hidden" data-account-dashboard>
+        <div class="account-profile">
+          <div>
+            <p class="eyebrow">Hesap</p>
+            <h2 data-account-name></h2>
+            <p data-account-email></p>
+          </div>
+          <div class="account-profile__actions">
+            <a class="button button-primary" href="checkout.html">Ödemeye git</a>
+            <button class="button button-secondary-dark" type="button" data-account-logout>Çıkış yap</button>
+          </div>
+        </div>
+
+        <div class="account-benefits">
+          <article>
+            <span>01</span>
+            <strong>Hızlı ödeme</strong>
+            <p>Bilgilerin sipariş sayfasında otomatik dolar.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <strong>Sipariş takibi</strong>
+            <p>Durum değişimlerini hesabında görebilirsin.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <strong>Üye sezonları</strong>
+            <p>Yeni kapsüller için hazır müşteri profili.</p>
+          </article>
+        </div>
+
+        <section class="account-orders" id="orders">
+          <div class="section-heading section-heading--shop">
+            <p class="eyebrow">Siparişler</p>
+            <h2>Sipariş geçmişi</h2>
+            <a href="products.html">Alışverişe devam et</a>
+          </div>
+          <div data-account-orders></div>
+        </section>
+
+        <section class="account-premium-grid">
+          <article>
+            <div class="section-heading section-heading--shop">
+              <p class="eyebrow">Adres defteri</p>
+              <h2>Teslimat adreslerin</h2>
+            </div>
+            <div data-account-addresses></div>
+          </article>
+          <article>
+            <div class="section-heading section-heading--shop">
+              <p class="eyebrow">Favoriler</p>
+              <h2>Kaydedilen ürünler</h2>
+            </div>
+            <div data-account-favorites></div>
+          </article>
+          <article>
+            <div class="section-heading section-heading--shop">
+              <p class="eyebrow">Stok</p>
+              <h2>Bildirim talepleri</h2>
+            </div>
+            <div data-account-notifications></div>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span data-year></span> <span data-brand-name>Threon</span>. Tüm hakları saklıdır.</p>
+      <a href="checkout.html">Ödeme</a>
+    </footer>
+
+    <script src="script.js?v=threon-cloudflare-split-20260625"></script>
+  </body>
+</html>
