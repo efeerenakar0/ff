@@ -352,9 +352,7 @@ function writeCloudflareRoutes() {
       "/data/*.json",
       "  Cache-Control: public, max-age=300, stale-while-revalidate=3600",
       "/assets/*",
-      "  Cache-Control: public, max-age=31536000, immutable",
-      "/admin.html",
-      "  X-Robots-Tag: noindex"
+      "  Cache-Control: public, max-age=31536000, immutable"
     ].join("\n")
   );
 }
@@ -376,10 +374,31 @@ function collectAssetReferences(value, refs = new Set()) {
   return refs;
 }
 
-function copyReferencedAsset(ref, missing) {
+function linkedAssetDirectory(ref, linkedDirs) {
+  const parts = String(ref || "").split("/");
+  if (parts.length < 3 || parts[0] !== "assets") return "";
+  const top = parts.slice(0, 2).join("/");
+  if (linkedDirs.has(top)) return top;
+  const sourceTop = path.join(ROOT, top);
+  try {
+    const stat = fs.lstatSync(sourceTop);
+    if (!stat.isSymbolicLink()) return "";
+    const targetTop = path.join(DIST_DIR, top);
+    fs.mkdirSync(path.dirname(targetTop), { recursive: true });
+    if (fs.existsSync(targetTop)) fs.rmSync(targetTop, { recursive: true, force: true });
+    fs.symlinkSync(fs.realpathSync(sourceTop), targetTop, "dir");
+    linkedDirs.add(top);
+    return top;
+  } catch {
+    return "";
+  }
+}
+
+function copyReferencedAsset(ref, missing, linkedDirs) {
   if (!ref || /^(?:https?:)?\/\//i.test(ref) || ref.startsWith("/")) return;
   const safeRef = ref.split("?")[0].replace(/^\/+/, "");
   if (!safeRef.startsWith("assets/")) return;
+  if (linkedAssetDirectory(safeRef, linkedDirs)) return;
   const sourcePath = path.join(ROOT, safeRef);
   const targetPath = path.join(DIST_DIR, safeRef);
   try {
@@ -407,16 +426,19 @@ function prepareDist(data, products) {
     if (fs.existsSync(source)) collectAssetReferences(fs.readFileSync(source, "utf8"), refs);
   });
   const missingAssets = new Set();
-  refs.forEach((ref) => copyReferencedAsset(ref, missingAssets));
+  const linkedDirs = new Set();
+  refs.forEach((ref) => copyReferencedAsset(ref, missingAssets, linkedDirs));
   writeCloudflareRoutes();
-  return { assetCount: refs.size - missingAssets.size, missingAssets: [...missingAssets].slice(0, 50) };
+  return { assetCount: refs.size - missingAssets.size, linkedAssetDirs: [...linkedDirs], missingAssets: [...missingAssets].slice(0, 50) };
 }
 
 function walkFiles(directory) {
   const files = [];
   for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
     const filePath = path.join(directory, entry.name);
-    if (entry.isDirectory()) files.push(...walkFiles(filePath));
+    const stat = fs.lstatSync(filePath);
+    if (stat.isSymbolicLink()) files.push(filePath);
+    else if (entry.isDirectory()) files.push(...walkFiles(filePath));
     else files.push(filePath);
   }
   return files;
@@ -424,7 +446,7 @@ function walkFiles(directory) {
 
 function assertFileSizes(directory) {
   const oversized = walkFiles(directory)
-    .map((file) => ({ file, bytes: fs.statSync(file).size }))
+    .map((file) => ({ file, bytes: fs.lstatSync(file).size }))
     .filter((item) => item.bytes > MAX_FILE_BYTES);
   if (oversized.length) {
     throw new Error(`25 MB üstü dosya kaldı: ${oversized.map((item) => path.relative(directory, item.file)).join(", ")}`);
@@ -450,8 +472,9 @@ function main() {
     productCleanup: report,
     productChunks: indexPayload.productChunks,
     copiedAssets: assetReport.assetCount,
+    linkedAssetDirs: assetReport.linkedAssetDirs,
     missingAssets: assetReport.missingAssets,
-    maxDistFileBytes: Math.max(...walkFiles(DIST_DIR).map((file) => fs.statSync(file).size)),
+    maxDistFileBytes: Math.max(...walkFiles(DIST_DIR).map((file) => fs.lstatSync(file).size)),
     dist: path.relative(ROOT, DIST_DIR)
   };
   writeJson(path.join(DATA_DIR, "cloudflare-build-report.json"), outputReport, true);

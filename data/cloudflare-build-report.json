@@ -1,7 +1,22 @@
 {
+  "generatedAt": "2026-06-25T03:08:38.484Z",
   "version": "cloudflare-split-20260625",
-  "productCount": 10596,
-  "generatedAt": "2026-06-25T03:08:38.416Z",
+  "privateSourceKept": "data/site-data.json kaynakta tutuldu, dist klasörüne dahil edilmedi.",
+  "removedPrivatePublicFields": [
+    "customers",
+    "orders",
+    "messages"
+  ],
+  "extractedImages": 0,
+  "extractedImageBytes": 0,
+  "productCleanup": {
+    "source": 10601,
+    "removedInactive": 0,
+    "removedDemo": 0,
+    "removedBroken": 0,
+    "removedDuplicates": 5,
+    "publicProducts": 10596
+  },
   "productChunks": [
     {
       "file": "products-1.json",
@@ -48,5 +63,15 @@
       "count": 66,
       "bytes": 103241
     }
-  ]
+  ],
+  "copiedAssets": 7048,
+  "linkedAssetDirs": [
+    "assets/lofibuy",
+    "assets/vamosclo",
+    "assets/penti",
+    "assets/lesbenjamins"
+  ],
+  "missingAssets": [],
+  "maxDistFileBytes": 7533479,
+  "dist": "dist"
 }
